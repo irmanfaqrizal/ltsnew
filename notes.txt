@@ -1,0 +1,79 @@
+read line (s1, t, s2) from aut file 
+build object state from s1 
+build object state from s2
+build object transition from t
+if s1 is not in index of map (appears in the left part of the map) then add (s1, empty list) to map
+if s2 is not in index of map (appears in the left part of the map) then add (s2, empty list) to map
+add transition t to the list of transitions corresponding to the index s1 in the map 
+
+
+tmp codes :
+static int extractMaximum(String str) 
+{ 
+    int num = 0, res = 0; 
+    
+    // Start traversing the given string 
+    for (int i = 0; i<str.length(); i++) 
+    { 
+        // If a numeric value comes, start converting 
+        // it into an integer till there are consecutive 
+        // numeric digits 
+        if (Character.isDigit(str.charAt(i))) 
+            num = num * 10 + (str.charAt(i)-'0'); 
+    
+        // Update maximum value 
+        else
+        { 
+            res = Math.max(res, num); 
+    
+            // Reset the number 
+            num = 0; 
+        } 
+    } 
+    
+    // Return maximum value 
+    return Math.max(res, num); 
+}
+
+// String result = listring
+//     .stream()
+//     .collect(Collectors.joining());
+// int getMax = extractMaximum(result);
+// System.out.println(getMax);
+
+
+class Colors {
+    private Colors() {
+    } // Prevents instantiation
+
+    // public static final String RED = "#FF0000";
+    // public static final String GREEN = "#008000";
+    // public static final String BLUE = "#0000FF";
+    // public static final String YELLOW = "#FFFF00";
+    // public static final String N = "#000000"; // Neutral
+    // public static final String NCI = "#F7FE2E"; // Neutral + Correct + Incorrect
+    // public static final String CI = "#FACC2E"; // Correct + Incorrect
+    // public static final String NI = "#FE9A2E"; // Neutral + Incorrect
+    // public static final String NC = "#B18904"; // Neutral + Correct
+
+    public static final String RED = "RED";
+    public static final String GREEN = "GREEN";
+    public static final String BLACK = "BLACK";
+    public static final String BLUE = "BLUE";
+    public static final String GB = "#"; // Neutral + Correct
+    public static final String BR = "#"; // Neutral + Incorrect
+    public static final String GR = "#"; // Correct + Incorrect
+    public static final String GRB = "#"; // Correct + Incorrect + Neutral
+}
+
+
+In LTS we add :                                                                                                                                                                                                                                                                                                                                                                                     
+1. Faulty color (type of neighborhood)
+2. Set of all unique labels
+3. Common label from faulty states
+
+We have to go through all the faulty states until exit state. because we may find another neighborhood
+after finding one. -> to do this we observe the color of the state and the labels
+- if we found another state with same color and one same outgoing label then this should be in the same cluster.
+- else this state should be in another cluster
+
