@@ -1,0 +1,642 @@
+Number of Clusters = 4
+
+> Cluster Id = 1
+>>> Number of Faulty States  = 399
+>>> Faulty State Type = R
+>>> Faulty States =>
+>>>>> State Id 3, N = R
+>>>>> State Id 5, N = R
+>>>>> State Id 16, N = R
+>>>>> State Id 52, N = R
+>>>>> State Id 137, N = R
+>>>>> State Id 297, N = R
+>>>>> State Id 549, N = R
+>>>>> State Id 887, N = R
+>>>>> State Id 1282, N = R
+>>>>> State Id 1688, N = R
+>>>>> State Id 2057, N = R
+>>>>> State Id 2352, N = R
+>>>>> State Id 2561, N = R
+>>>>> State Id 2691, N = R
+>>>>> State Id 2822, N = R
+>>>>> State Id 2846, N = R
+>>>>> State Id 2900, N = R
+>>>>> State Id 2991, N = R
+>>>>> State Id 3113, N = R
+>>>>> State Id 3245, N = R
+>>>>> State Id 3362, N = R
+>>>>> State Id 3447, N = R
+>>>>> State Id 3495, N = R
+>>>>> State Id 4119, N = R
+>>>>> State Id 4139, N = R
+>>>>> State Id 4184, N = R
+>>>>> State Id 4263, N = R
+>>>>> State Id 4378, N = R
+>>>>> State Id 4518, N = R
+>>>>> State Id 4663, N = R
+>>>>> State Id 4792, N = R
+>>>>> State Id 4889, N = R
+>>>>> State Id 4949, N = R
+>>>>> State Id 4979, N = R
+>>>>> State Id 4950, N = R
+>>>>> State Id 4890, N = R
+>>>>> State Id 4793, N = R
+>>>>> State Id 4891, N = R
+>>>>> State Id 4664, N = R
+>>>>> State Id 4794, N = R
+>>>>> State Id 4519, N = R
+>>>>> State Id 4665, N = R
+>>>>> State Id 4379, N = R
+>>>>> State Id 4520, N = R
+>>>>> State Id 4666, N = R
+>>>>> State Id 4795, N = R
+>>>>> State Id 4264, N = R
+>>>>> State Id 4380, N = R
+>>>>> State Id 4521, N = R
+>>>>> State Id 4667, N = R
+>>>>> State Id 4796, N = R
+>>>>> State Id 4892, N = R
+>>>>> State Id 4951, N = R
+>>>>> State Id 4893, N = R
+>>>>> State Id 4797, N = R
+>>>>> State Id 4668, N = R
+>>>>> State Id 4798, N = R
+>>>>> State Id 4522, N = R
+>>>>> State Id 4669, N = R
+>>>>> State Id 4381, N = R
+>>>>> State Id 4523, N = R
+>>>>> State Id 4265, N = R
+>>>>> State Id 4382, N = R
+>>>>> State Id 4524, N = R
+>>>>> State Id 4670, N = R
+>>>>> State Id 4185, N = R
+>>>>> State Id 4266, N = R
+>>>>> State Id 4383, N = R
+>>>>> State Id 4525, N = R
+>>>>> State Id 4671, N = R
+>>>>> State Id 4799, N = R
+>>>>> State Id 4894, N = R
+>>>>> State Id 4800, N = R
+>>>>> State Id 4672, N = R
+>>>>> State Id 4526, N = R
+>>>>> State Id 4673, N = R
+>>>>> State Id 4384, N = R
+>>>>> State Id 4527, N = R
+>>>>> State Id 4267, N = R
+>>>>> State Id 4385, N = R
+>>>>> State Id 4186, N = R
+>>>>> State Id 4268, N = R
+>>>>> State Id 4386, N = R
+>>>>> State Id 4528, N = R
+>>>>> State Id 4140, N = R
+>>>>> State Id 4187, N = R
+>>>>> State Id 4269, N = R
+>>>>> State Id 4387, N = R
+>>>>> State Id 4529, N = R
+>>>>> State Id 4674, N = R
+>>>>> State Id 4801, N = R
+>>>>> State Id 4675, N = R
+>>>>> State Id 4530, N = R
+>>>>> State Id 4388, N = R
+>>>>> State Id 4531, N = R
+>>>>> State Id 4270, N = R
+>>>>> State Id 4389, N = R
+>>>>> State Id 4188, N = R
+>>>>> State Id 4271, N = R
+>>>>> State Id 4141, N = R
+>>>>> State Id 4189, N = R
+>>>>> State Id 4272, N = R
+>>>>> State Id 4390, N = R
+>>>>> State Id 3448, N = R
+>>>>> State Id 3363, N = R
+>>>>> State Id 3247, N = R
+>>>>> State Id 3366, N = R
+>>>>> State Id 3115, N = R
+>>>>> State Id 3250, N = R
+>>>>> State Id 2992, N = R
+>>>>> State Id 3116, N = R
+>>>>> State Id 3252, N = R
+>>>>> State Id 3372, N = R
+>>>>> State Id 3456, N = R
+>>>>> State Id 3373, N = R
+>>>>> State Id 3253, N = R
+>>>>> State Id 3118, N = R
+>>>>> State Id 3256, N = R
+>>>>> State Id 2994, N = R
+>>>>> State Id 3121, N = R
+>>>>> State Id 2901, N = R
+>>>>> State Id 2995, N = R
+>>>>> State Id 3122, N = R
+>>>>> State Id 3260, N = R
+>>>>> State Id 2902, N = R
+>>>>> State Id 2997, N = R
+>>>>> State Id 3126, N = R
+>>>>> State Id 2847, N = R
+>>>>> State Id 2904, N = R
+>>>>> State Id 3000, N = R
+>>>>> State Id 3128, N = R
+>>>>> State Id 3265, N = R
+>>>>> State Id 3383, N = R
+>>>>> State Id 3463, N = R
+>>>>> State Id 3384, N = R
+>>>>> State Id 3266, N = R
+>>>>> State Id 3130, N = R
+>>>>> State Id 3269, N = R
+>>>>> State Id 3002, N = R
+>>>>> State Id 3133, N = R
+>>>>> State Id 2905, N = R
+>>>>> State Id 3003, N = R
+>>>>> State Id 3135, N = R
+>>>>> State Id 3275, N = R
+>>>>> State Id 3392, N = R
+>>>>> State Id 3276, N = R
+>>>>> State Id 3136, N = R
+>>>>> State Id 3005, N = R
+>>>>> State Id 3139, N = R
+>>>>> State Id 2907, N = R
+>>>>> State Id 3008, N = R
+>>>>> State Id 2848, N = R
+>>>>> State Id 2908, N = R
+>>>>> State Id 3009, N = R
+>>>>> State Id 3143, N = R
+>>>>> State Id 2849, N = R
+>>>>> State Id 2910, N = R
+>>>>> State Id 3013, N = R
+>>>>> State Id 2058, N = R
+>>>>> State Id 2353, N = R
+>>>>> State Id 1689, N = R
+>>>>> State Id 1283, N = R
+>>>>> State Id 1690, N = R
+>>>>> State Id 2059, N = R
+>>>>> State Id 888, N = R
+>>>>> State Id 1284, N = R
+>>>>> State Id 1691, N = R
+>>>>> State Id 550, N = R
+>>>>> State Id 889, N = R
+>>>>> State Id 1285, N = R
+>>>>> State Id 1692, N = R
+>>>>> State Id 2060, N = R
+>>>>> State Id 2354, N = R
+>>>>> State Id 2562, N = R
+>>>>> State Id 1693, N = R
+>>>>> State Id 2061, N = R
+>>>>> State Id 1286, N = R
+>>>>> State Id 890, N = R
+>>>>> State Id 1287, N = R
+>>>>> State Id 1694, N = R
+>>>>> State Id 551, N = R
+>>>>> State Id 891, N = R
+>>>>> State Id 1288, N = R
+>>>>> State Id 298, N = R
+>>>>> State Id 552, N = R
+>>>>> State Id 892, N = R
+>>>>> State Id 1289, N = R
+>>>>> State Id 1695, N = R
+>>>>> State Id 2062, N = R
+>>>>> State Id 2355, N = R
+>>>>> State Id 1290, N = R
+>>>>> State Id 1696, N = R
+>>>>> State Id 893, N = R
+>>>>> State Id 553, N = R
+>>>>> State Id 894, N = R
+>>>>> State Id 1291, N = R
+>>>>> State Id 299, N = R
+>>>>> State Id 554, N = R
+>>>>> State Id 895, N = R
+>>>>> State Id 138, N = R
+>>>>> State Id 300, N = R
+>>>>> State Id 555, N = R
+>>>>> State Id 896, N = R
+>>>>> State Id 1292, N = R
+>>>>> State Id 1697, N = R
+>>>>> State Id 2063, N = R
+>>>>> State Id 897, N = R
+>>>>> State Id 1293, N = R
+>>>>> State Id 556, N = R
+>>>>> State Id 301, N = R
+>>>>> State Id 557, N = R
+>>>>> State Id 898, N = R
+>>>>> State Id 139, N = R
+>>>>> State Id 302, N = R
+>>>>> State Id 558, N = R
+>>>>> State Id 53, N = R
+>>>>> State Id 140, N = R
+>>>>> State Id 303, N = R
+>>>>> State Id 559, N = R
+>>>>> State Id 899, N = R
+>>>>> State Id 1294, N = R
+>>>>> State Id 1698, N = R
+>>>>> State Id 560, N = R
+>>>>> State Id 900, N = R
+>>>>> State Id 304, N = R
+>>>>> State Id 141, N = R
+>>>>> State Id 305, N = R
+>>>>> State Id 561, N = R
+>>>>> State Id 54, N = R
+>>>>> State Id 142, N = R
+>>>>> State Id 306, N = R
+>>>>> State Id 18, N = R
+>>>>> State Id 59, N = R
+>>>>> State Id 153, N = R
+>>>>> State Id 327, N = R
+>>>>> State Id 594, N = R
+>>>>> State Id 944, N = R
+>>>>> State Id 1345, N = R
+>>>>> State Id 1750, N = R
+>>>>> State Id 2109, N = R
+>>>>> State Id 2391, N = R
+>>>>> State Id 2587, N = R
+>>>>> State Id 1751, N = R
+>>>>> State Id 2110, N = R
+>>>>> State Id 1346, N = R
+>>>>> State Id 945, N = R
+>>>>> State Id 1347, N = R
+>>>>> State Id 1752, N = R
+>>>>> State Id 595, N = R
+>>>>> State Id 946, N = R
+>>>>> State Id 1348, N = R
+>>>>> State Id 328, N = R
+>>>>> State Id 596, N = R
+>>>>> State Id 947, N = R
+>>>>> State Id 1349, N = R
+>>>>> State Id 1753, N = R
+>>>>> State Id 2111, N = R
+>>>>> State Id 2392, N = R
+>>>>> State Id 1350, N = R
+>>>>> State Id 1754, N = R
+>>>>> State Id 948, N = R
+>>>>> State Id 597, N = R
+>>>>> State Id 949, N = R
+>>>>> State Id 1351, N = R
+>>>>> State Id 329, N = R
+>>>>> State Id 598, N = R
+>>>>> State Id 950, N = R
+>>>>> State Id 154, N = R
+>>>>> State Id 330, N = R
+>>>>> State Id 599, N = R
+>>>>> State Id 951, N = R
+>>>>> State Id 1352, N = R
+>>>>> State Id 1755, N = R
+>>>>> State Id 2112, N = R
+>>>>> State Id 952, N = R
+>>>>> State Id 1353, N = R
+>>>>> State Id 600, N = R
+>>>>> State Id 331, N = R
+>>>>> State Id 601, N = R
+>>>>> State Id 953, N = R
+>>>>> State Id 155, N = R
+>>>>> State Id 332, N = R
+>>>>> State Id 602, N = R
+>>>>> State Id 60, N = R
+>>>>> State Id 156, N = R
+>>>>> State Id 333, N = R
+>>>>> State Id 603, N = R
+>>>>> State Id 954, N = R
+>>>>> State Id 1354, N = R
+>>>>> State Id 1756, N = R
+>>>>> State Id 604, N = R
+>>>>> State Id 955, N = R
+>>>>> State Id 334, N = R
+>>>>> State Id 157, N = R
+>>>>> State Id 335, N = R
+>>>>> State Id 605, N = R
+>>>>> State Id 61, N = R
+>>>>> State Id 158, N = R
+>>>>> State Id 336, N = R
+>>>>> State Id 19, N = R
+>>>>> State Id 62, N = R
+>>>>> State Id 159, N = R
+>>>>> State Id 337, N = R
+>>>>> State Id 606, N = R
+>>>>> State Id 956, N = R
+>>>>> State Id 1355, N = R
+>>>>> State Id 338, N = R
+>>>>> State Id 607, N = R
+>>>>> State Id 160, N = R
+>>>>> State Id 63, N = R
+>>>>> State Id 161, N = R
+>>>>> State Id 339, N = R
+>>>>> State Id 20, N = R
+>>>>> State Id 64, N = R
+>>>>> State Id 162, N = R
+>>>>> State Id 7, N = R
+>>>>> State Id 25, N = R
+>>>>> State Id 75, N = R
+>>>>> State Id 183, N = R
+>>>>> State Id 372, N = R
+>>>>> State Id 651, N = R
+>>>>> State Id 1007, N = R
+>>>>> State Id 1407, N = R
+>>>>> State Id 1802, N = R
+>>>>> State Id 2148, N = R
+>>>>> State Id 2417, N = R
+>>>>> State Id 1408, N = R
+>>>>> State Id 1803, N = R
+>>>>> State Id 1008, N = R
+>>>>> State Id 652, N = R
+>>>>> State Id 1009, N = R
+>>>>> State Id 1409, N = R
+>>>>> State Id 373, N = R
+>>>>> State Id 653, N = R
+>>>>> State Id 1010, N = R
+>>>>> State Id 184, N = R
+>>>>> State Id 374, N = R
+>>>>> State Id 654, N = R
+>>>>> State Id 1011, N = R
+>>>>> State Id 1410, N = R
+>>>>> State Id 1804, N = R
+>>>>> State Id 2149, N = R
+>>>>> State Id 1012, N = R
+>>>>> State Id 1411, N = R
+>>>>> State Id 655, N = R
+>>>>> State Id 375, N = R
+>>>>> State Id 656, N = R
+>>>>> State Id 1013, N = R
+>>>>> State Id 185, N = R
+>>>>> State Id 376, N = R
+>>>>> State Id 657, N = R
+>>>>> State Id 76, N = R
+>>>>> State Id 186, N = R
+>>>>> State Id 377, N = R
+>>>>> State Id 658, N = R
+>>>>> State Id 1014, N = R
+>>>>> State Id 1412, N = R
+>>>>> State Id 1805, N = R
+>>>>> State Id 659, N = R
+>>>>> State Id 1015, N = R
+>>>>> State Id 378, N = R
+>>>>> State Id 187, N = R
+>>>>> State Id 379, N = R
+>>>>> State Id 660, N = R
+>>>>> State Id 77, N = R
+>>>>> State Id 188, N = R
+>>>>> State Id 380, N = R
+>>>>> State Id 26, N = R
+>>>>> State Id 78, N = R
+>>>>> State Id 189, N = R
+>>>>> State Id 381, N = R
+>>>>> State Id 661, N = R
+>>>>> State Id 1016, N = R
+>>>>> State Id 1413, N = R
+>>>>> State Id 382, N = R
+>>>>> State Id 662, N = R
+>>>>> State Id 190, N = R
+>>>>> State Id 79, N = R
+>>>>> State Id 191, N = R
+>>>>> State Id 383, N = R
+>>>>> State Id 27, N = R
+>>>>> State Id 80, N = R
+>>>>> State Id 192, N = R
+>>>>> State Id 8, N = R
+>>>>> State Id 28, N = R
+>>>>> State Id 81, N = R
+>>>>> State Id 193, N = R
+>>>>> State Id 384, N = R
+>>>>> State Id 663, N = R
+>>>>> State Id 1017, N = R
+>>>>> State Id 194, N = R
+>>>>> State Id 385, N = R
+>>>>> State Id 82, N = R
+>>>>> State Id 29, N = R
+>>>>> State Id 83, N = R
+>>>>> State Id 195, N = R
+>>>>> State Id 9, N = R
+>>>>> State Id 30, N = R
+>>>>> State Id 84, N = R
+>>> Common Label => 
+>>>>> "A"
+>>> All Labels =>
+>>>>> "DUM11"
+>>>>> "FF2"
+>>>>> "FF4"
+>>>>> "FF6"
+>>>>> "DUM8"
+>>>>> "A"
+>>>>> "DUM12"
+>>>>> "FF3"
+>>>>> "D"
+>>>>> "FF5"
+>>>>> "E"
+>>>>> "F"
+>>>>> "DUM4"
+>>>>> "DUM5"
+>>>>> "DUM6"
+>>>>> "DUM7"
+>>>>> "FF11"
+>>>>> "M"
+>>>>> "DUM13"
+>>>>> "N"
+>>>>> "NEW3"
+>>>>> "NEW5"
+>>>>> "NEW5"
+>>>>> "NEW1"
+>>>>> "NEW4"
+>>>>> "NEW6"
+>>>>> "NEW7"
+>>>>> "DD9"
+
+> Cluster Id = 2
+>>> Number of Faulty States  = 42
+>>> Faulty State Type = R
+>>> Faulty States =>
+>>>>> State Id 3530, N = R
+>>>>> State Id 3544, N = R
+>>>>> State Id 3571, N = R
+>>>>> State Id 3612, N = R
+>>>>> State Id 3668, N = R
+>>>>> State Id 3737, N = R
+>>>>> State Id 3815, N = R
+>>>>> State Id 3894, N = R
+>>>>> State Id 3965, N = R
+>>>>> State Id 4024, N = R
+>>>>> State Id 4068, N = R
+>>>>> State Id 4096, N = R
+>>>>> State Id 4025, N = R
+>>>>> State Id 4069, N = R
+>>>>> State Id 3966, N = R
+>>>>> State Id 4026, N = R
+>>>>> State Id 3896, N = R
+>>>>> State Id 3969, N = R
+>>>>> State Id 3816, N = R
+>>>>> State Id 3898, N = R
+>>>>> State Id 3972, N = R
+>>>>> State Id 3738, N = R
+>>>>> State Id 3819, N = R
+>>>>> State Id 3902, N = R
+>>>>> State Id 3669, N = R
+>>>>> State Id 3741, N = R
+>>>>> State Id 3823, N = R
+>>>>> State Id 3614, N = R
+>>>>> State Id 3672, N = R
+>>>>> State Id 3744, N = R
+>>>>> State Id 3826, N = R
+>>>>> State Id 3908, N = R
+>>>>> State Id 3573, N = R
+>>>>> State Id 3617, N = R
+>>>>> State Id 3676, N = R
+>>>>> State Id 3749, N = R
+>>>>> State Id 3831, N = R
+>>>>> State Id 3546, N = R
+>>>>> State Id 3576, N = R
+>>>>> State Id 3621, N = R
+>>>>> State Id 3681, N = R
+>>>>> State Id 3754, N = R
+>>> Common Label => 
+>>>>> "DD1"
+>>>>> "FF8"
+>>> All Labels =>
+>>>>> "AA1"
+>>>>> "DD2"
+>>>>> "DD1"
+>>>>> "FF8"
+>>>>> "AA2"
+>>>>> "AA3"
+>>>>> "DUM15"
+>>>>> "DD3"
+>>>>> "DUM14"
+>>>>> "G"
+>>>>> "M"
+>>>>> "H"
+
+> Cluster Id = 3
+>>> Number of Faulty States  = 111
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 4996, N = GRB
+>>>>> State Id 5016, N = GRB
+>>>>> State Id 5061, N = GRB
+>>>>> State Id 5142, N = GRB
+>>>>> State Id 5267, N = GRB
+>>>>> State Id 5435, N = GRB
+>>>>> State Id 5627, N = GRB
+>>>>> State Id 5815, N = GRB
+>>>>> State Id 5971, N = GRB
+>>>>> State Id 6086, N = GRB
+>>>>> State Id 6158, N = GRB
+>>>>> State Id 6196, N = GRB
+>>>>> State Id 5972, N = GRB
+>>>>> State Id 6087, N = GRB
+>>>>> State Id 6159, N = GRB
+>>>>> State Id 5816, N = GRB
+>>>>> State Id 5973, N = GRB
+>>>>> State Id 6088, N = GRB
+>>>>> State Id 6160, N = GRB
+>>>>> State Id 5628, N = GRB
+>>>>> State Id 5817, N = GRB
+>>>>> State Id 5974, N = GRB
+>>>>> State Id 6089, N = GRB
+>>>>> State Id 5436, N = GRB
+>>>>> State Id 5629, N = GRB
+>>>>> State Id 5818, N = GRB
+>>>>> State Id 5975, N = GRB
+>>>>> State Id 5268, N = GRB
+>>>>> State Id 5437, N = GRB
+>>>>> State Id 5630, N = GRB
+>>>>> State Id 5819, N = GRB
+>>>>> State Id 5976, N = GRB
+>>>>> State Id 6090, N = GRB
+>>>>> State Id 5631, N = GRB
+>>>>> State Id 5820, N = GRB
+>>>>> State Id 5977, N = GRB
+>>>>> State Id 5438, N = GRB
+>>>>> State Id 5632, N = GRB
+>>>>> State Id 5821, N = GRB
+>>>>> State Id 5269, N = GRB
+>>>>> State Id 5439, N = GRB
+>>>>> State Id 5633, N = GRB
+>>>>> State Id 5143, N = GRB
+>>>>> State Id 5270, N = GRB
+>>>>> State Id 5440, N = GRB
+>>>>> State Id 5634, N = GRB
+>>>>> State Id 5822, N = GRB
+>>>>> State Id 5978, N = GRB
+>>>>> State Id 6091, N = GRB
+>>>>> State Id 6161, N = GRB
+>>>>> State Id 5635, N = GRB
+>>>>> State Id 5823, N = GRB
+>>>>> State Id 5979, N = GRB
+>>>>> State Id 5441, N = GRB
+>>>>> State Id 5636, N = GRB
+>>>>> State Id 5824, N = GRB
+>>>>> State Id 5980, N = GRB
+>>>>> State Id 5271, N = GRB
+>>>>> State Id 5442, N = GRB
+>>>>> State Id 5637, N = GRB
+>>>>> State Id 5825, N = GRB
+>>>>> State Id 5144, N = GRB
+>>>>> State Id 5272, N = GRB
+>>>>> State Id 5443, N = GRB
+>>>>> State Id 5638, N = GRB
+>>>>> State Id 5062, N = GRB
+>>>>> State Id 5145, N = GRB
+>>>>> State Id 5273, N = GRB
+>>>>> State Id 5444, N = GRB
+>>>>> State Id 5639, N = GRB
+>>>>> State Id 5826, N = GRB
+>>>>> State Id 5981, N = GRB
+>>>>> State Id 6092, N = GRB
+>>>>> State Id 5445, N = GRB
+>>>>> State Id 5640, N = GRB
+>>>>> State Id 5827, N = GRB
+>>>>> State Id 5274, N = GRB
+>>>>> State Id 5446, N = GRB
+>>>>> State Id 5641, N = GRB
+>>>>> State Id 5828, N = GRB
+>>>>> State Id 5146, N = GRB
+>>>>> State Id 5275, N = GRB
+>>>>> State Id 5447, N = GRB
+>>>>> State Id 5642, N = GRB
+>>>>> State Id 5063, N = GRB
+>>>>> State Id 5147, N = GRB
+>>>>> State Id 5276, N = GRB
+>>>>> State Id 5448, N = GRB
+>>>>> State Id 5017, N = GRB
+>>>>> State Id 5064, N = GRB
+>>>>> State Id 5148, N = GRB
+>>>>> State Id 5277, N = GRB
+>>>>> State Id 5449, N = GRB
+>>>>> State Id 5643, N = GRB
+>>>>> State Id 5829, N = GRB
+>>>>> State Id 5982, N = GRB
+>>>>> State Id 5278, N = GRB
+>>>>> State Id 5450, N = GRB
+>>>>> State Id 5644, N = GRB
+>>>>> State Id 5149, N = GRB
+>>>>> State Id 5279, N = GRB
+>>>>> State Id 5451, N = GRB
+>>>>> State Id 5645, N = GRB
+>>>>> State Id 5065, N = GRB
+>>>>> State Id 5150, N = GRB
+>>>>> State Id 5280, N = GRB
+>>>>> State Id 5452, N = GRB
+>>>>> State Id 5018, N = GRB
+>>>>> State Id 5066, N = GRB
+>>>>> State Id 5151, N = GRB
+>>>>> State Id 5281, N = GRB
+>>> Common Label => 
+>>>>> "A"
+>>>>> "NEW8"
+>>> All Labels =>
+>>>>> "NEW9"
+>>>>> "TR1"
+>>>>> "TR3"
+>>>>> "A"
+>>>>> "NEW8"
+>>>>> "L"
+>>>>> "NEW10"
+>>>>> "TR2"
+>>>>> "TR4"
+>>>>> "TR5"
+
+> Cluster Id = 4
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = GR
+>>> Faulty States =>
+>>>>> State Id 6212, N = GR
+>>> Common Label => 
+>>>>> "NEW8"
+>>>>> "A"
+>>> All Labels =>
+>>>>> "NEW8"
+>>>>> "A"
+

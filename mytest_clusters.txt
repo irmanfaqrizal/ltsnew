@@ -1,0 +1,14 @@
+Number of Clusters = 1
+
+> Cluster Id = 1
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = GR
+>>> Faulty States =>
+>>>>> State Id 0, N = GR
+>>> Common Label => 
+>>>>> "FF1"
+>>>>> "DUM1"
+>>> All Labels =>
+>>>>> "FF1"
+>>>>> "DUM1"
+

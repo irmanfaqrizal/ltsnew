@@ -1,0 +1,58 @@
+Number of Clusters = 4
+
+> Cluster Id = 1
+>>> Number of Faulty States  = 4
+>>> Faulty State Type = G
+>>> Faulty States =>
+>>>>> State Id 16, N = G
+>>>>> State Id 18, N = G
+>>>>> State Id 24, N = G
+>>>>> State Id 22, N = G
+>>> Common Label => 
+>>>>> "INVOICE_REC"
+>>> All Labels =>
+>>>>> "ACK_REC"
+>>>>> "ITINERARY_EM"
+>>>>> "INVOICE_REC"
+>>>>> "RESULT_EM"
+
+> Cluster Id = 2
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = GR
+>>> Faulty States =>
+>>>>> State Id 31, N = GR
+>>> Common Label => 
+>>>>> "INVOICE_REC"
+>>>>> "RESULT_REC"
+>>> All Labels =>
+>>>>> "INVOICE_REC"
+>>>>> "RESULT_REC"
+
+> Cluster Id = 3
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 25, N = GRB
+>>> Common Label => 
+>>>>> "ITINERARY_EM"
+>>>>> "INVOICE_REC"
+>>>>> "RESULT_REC"
+>>> All Labels =>
+>>>>> "ITINERARY_EM"
+>>>>> "INVOICE_REC"
+>>>>> "RESULT_REC"
+
+> Cluster Id = 4
+>>> Number of Faulty States  = 2
+>>> Faulty State Type = R
+>>> Faulty States =>
+>>>>> State Id 20, N = R
+>>>>> State Id 26, N = R
+>>> Common Label => 
+>>>>> "INVOICE_EM"
+>>>>> "RESULT_REC"
+>>> All Labels =>
+>>>>> "INVOICE_EM"
+>>>>> "ITINERARY_EM"
+>>>>> "RESULT_REC"
+

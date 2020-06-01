@@ -1,0 +1,53 @@
+Number of Clusters = 4
+
+> Cluster Id = 1
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = GR
+>>> Faulty States =>
+>>>>> State Id 4, N = GR
+>>> Common Label => 
+>>>>> "DD2"
+>>>>> "A"
+>>> All Labels =>
+>>>>> "DD2"
+>>>>> "A"
+
+> Cluster Id = 2
+>>> Number of Faulty States  = 2
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 14, N = GRB
+>>>>> State Id 22, N = GRB
+>>> Common Label => 
+>>>>> "A"
+>>>>> "DUM6"
+>>> All Labels =>
+>>>>> "DUM8"
+>>>>> "A"
+>>>>> "DUM6"
+>>>>> "DUM9"
+
+> Cluster Id = 3
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = GR
+>>> Faulty States =>
+>>>>> State Id 34, N = GR
+>>> Common Label => 
+>>>>> "DUM6"
+>>>>> "A"
+>>> All Labels =>
+>>>>> "DUM6"
+>>>>> "A"
+
+> Cluster Id = 4
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = GR
+>>> Faulty States =>
+>>>>> State Id 45, N = GR
+>>> Common Label => 
+>>>>> "FF7"
+>>>>> "A"
+>>> All Labels =>
+>>>>> "FF7"
+>>>>> "A"
+

@@ -77,3 +77,6 @@ after finding one. -> to do this we observe the color of the state and the label
 - if we found another state with same color and one same outgoing label then this should be in the same cluster.
 - else this state should be in another cluster
 
+28th may
+- If we have some states, and they have different labels. Which one should be added to the cluster (v)
+- if we have all read, are we sure that we don't any cluster? should it be 1 cluster? (mytest2)

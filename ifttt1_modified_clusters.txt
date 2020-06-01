@@ -1,0 +1,141 @@
+Number of Clusters = 4
+
+> Cluster Id = 1
+>>> Number of Faulty States  = 12
+>>> Faulty State Type = G
+>>> Faulty States =>
+>>>>> State Id 6, N = G
+>>>>> State Id 53, N = G
+>>>>> State Id 229, N = G
+>>>>> State Id 58, N = G
+>>>>> State Id 66, N = G
+>>>>> State Id 237, N = G
+>>>>> State Id 238, N = G
+>>>>> State Id 54, N = G
+>>>>> State Id 7, N = G
+>>>>> State Id 59, N = G
+>>>>> State Id 230, N = G
+>>>>> State Id 67, N = G
+>>> Common Label => 
+>>>>> "MOVEIN"
+>>>>> "COLD"
+>>>>> "EARLY"
+>>>>> "LATE"
+>>>>> "MOVEOUT"
+>>>>> "WARM"
+>>> All Labels =>
+>>>>> "MOVEIN"
+>>>>> "COLD"
+>>>>> "EARLY"
+>>>>> "LATE"
+>>>>> "MOVEOUT"
+>>>>> "WARM"
+>>>>> "CLOSEWINDOW_READ"
+>>>>> "SWITCHON_READ"
+>>>>> "SWITCHOFF_READ"
+
+> Cluster Id = 2
+>>> Number of Faulty States  = 24
+>>> Faulty State Type = G
+>>> Faulty States =>
+>>>>> State Id 71, N = G
+>>>>> State Id 8, N = G
+>>>>> State Id 72, N = G
+>>>>> State Id 9, N = G
+>>>>> State Id 63, N = G
+>>>>> State Id 64, N = G
+>>>>> State Id 55, N = G
+>>>>> State Id 56, N = G
+>>>>> State Id 234, N = G
+>>>>> State Id 235, N = G
+>>>>> State Id 250, N = G
+>>>>> State Id 79, N = G
+>>>>> State Id 170, N = G
+>>>>> State Id 370, N = G
+>>>>> State Id 251, N = G
+>>>>> State Id 80, N = G
+>>>>> State Id 171, N = G
+>>>>> State Id 371, N = G
+>>>>> State Id 389, N = G
+>>>>> State Id 390, N = G
+>>>>> State Id 259, N = G
+>>>>> State Id 260, N = G
+>>>>> State Id 242, N = G
+>>>>> State Id 243, N = G
+>>> Common Label => 
+>>>>> "LIGHTOFF_READ"
+>>>>> "LIGHTON_READ"
+>>> All Labels =>
+>>>>> "SWITCHOFF_READ"
+>>>>> "LIGHTOFF_READ"
+>>>>> "LIGHTON_READ"
+>>>>> "SWITCHON_READ"
+>>>>> "CLOSEWINDOW_READ"
+>>>>> "OPENWINDOW_READ"
+
+> Cluster Id = 3
+>>> Number of Faulty States  = 6
+>>> Faulty State Type = R
+>>> Faulty States =>
+>>>>> State Id 33, N = R
+>>>>> State Id 252, N = R
+>>>>> State Id 81, N = R
+>>>>> State Id 140, N = R
+>>>>> State Id 152, N = R
+>>>>> State Id 261, N = R
+>>> Common Label => 
+>>>>> "LIGHTOFF_READ"
+>>>>> "LIGHTON_READ"
+>>>>> "MOVEIN"
+>>>>> "MOVEOUT"
+>>>>> "COLD"
+>>>>> "EARLY"
+>>>>> "LATE"
+>>>>> "WARM"
+>>> All Labels =>
+>>>>> "LIGHTOFF_READ"
+>>>>> "LIGHTON_READ"
+>>>>> "MOVEIN"
+>>>>> "MOVEOUT"
+>>>>> "OPENWINDOW_READ"
+>>>>> "COLD"
+>>>>> "EARLY"
+>>>>> "LATE"
+>>>>> "WARM"
+>>>>> "SWITCHON_READ"
+>>>>> "SWITCHOFF_READ"
+
+> Cluster Id = 4
+>>> Number of Faulty States  = 12
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 74, N = GRB
+>>>>> State Id 158, N = GRB
+>>>>> State Id 75, N = GRB
+>>>>> State Id 164, N = GRB
+>>>>> State Id 365, N = GRB
+>>>>> State Id 359, N = GRB
+>>>>> State Id 245, N = GRB
+>>>>> State Id 246, N = GRB
+>>>>> State Id 254, N = GRB
+>>>>> State Id 378, N = GRB
+>>>>> State Id 384, N = GRB
+>>>>> State Id 255, N = GRB
+>>> Common Label => 
+>>>>> "COLD"
+>>>>> "EARLY"
+>>>>> "LATE"
+>>>>> "MOVEOUT"
+>>>>> "MOVEIN"
+>>>>> "WARM"
+>>> All Labels =>
+>>>>> "OPENWINDOW_READ"
+>>>>> "COLD"
+>>>>> "EARLY"
+>>>>> "LATE"
+>>>>> "MOVEOUT"
+>>>>> "MOVEIN"
+>>>>> "WARM"
+>>>>> "SWITCHON_READ"
+>>>>> "SWITCHOFF_READ"
+

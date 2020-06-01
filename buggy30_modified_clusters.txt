@@ -1,0 +1,78 @@
+Number of Clusters = 2
+
+> Cluster Id = 1
+>>> Number of Faulty States  = 44
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 7, N = GRB
+>>>>> State Id 9, N = GRB
+>>>>> State Id 21, N = GRB
+>>>>> State Id 59, N = GRB
+>>>>> State Id 140, N = GRB
+>>>>> State Id 261, N = GRB
+>>>>> State Id 393, N = GRB
+>>>>> State Id 262, N = GRB
+>>>>> State Id 394, N = GRB
+>>>>> State Id 141, N = GRB
+>>>>> State Id 263, N = GRB
+>>>>> State Id 61, N = GRB
+>>>>> State Id 145, N = GRB
+>>>>> State Id 269, N = GRB
+>>>>> State Id 400, N = GRB
+>>>>> State Id 146, N = GRB
+>>>>> State Id 270, N = GRB
+>>>>> State Id 62, N = GRB
+>>>>> State Id 147, N = GRB
+>>>>> State Id 24, N = GRB
+>>>>> State Id 70, N = GRB
+>>>>> State Id 161, N = GRB
+>>>>> State Id 286, N = GRB
+>>>>> State Id 71, N = GRB
+>>>>> State Id 162, N = GRB
+>>>>> State Id 25, N = GRB
+>>>>> State Id 72, N = GRB
+>>>>> State Id 12, N = GRB
+>>>>> State Id 35, N = GRB
+>>>>> State Id 93, N = GRB
+>>>>> State Id 191, N = GRB
+>>>>> State Id 313, N = GRB
+>>>>> State Id 192, N = GRB
+>>>>> State Id 94, N = GRB
+>>>>> State Id 36, N = GRB
+>>>>> State Id 95, N = GRB
+>>>>> State Id 193, N = GRB
+>>>>> State Id 96, N = GRB
+>>>>> State Id 37, N = GRB
+>>>>> State Id 13, N = GRB
+>>>>> State Id 38, N = GRB
+>>>>> State Id 97, N = GRB
+>>>>> State Id 39, N = GRB
+>>>>> State Id 14, N = GRB
+>>> Common Label => 
+>>>>> "C"
+>>>>> "DUM11"
+>>> All Labels =>
+>>>>> "A"
+>>>>> "DUM5"
+>>>>> "DUM7"
+>>>>> "DUM8"
+>>>>> "C"
+>>>>> "DUM11"
+>>>>> "B"
+>>>>> "DUM10"
+>>>>> "DUM6"
+>>>>> "DUM13"
+>>>>> "DUM9"
+
+> Cluster Id = 2
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = GR
+>>> Faulty States =>
+>>>>> State Id 496, N = GR
+>>> Common Label => 
+>>>>> "DUM11"
+>>>>> "C"
+>>> All Labels =>
+>>>>> "DUM11"
+>>>>> "C"
+

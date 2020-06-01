@@ -246,17 +246,107 @@ public class newLTS {
     }
 
     static void traverseCluster(Map <State, List<Transition>> lts, State state, State stateOne,
-	   
+        List <State> statesCluster, List <State> statesVisitedInCluster,
+        List <String> labelsCommon, List <String> labelsAll, List <Cluster> clusters) {
+
+            List <Transition> transitions = lts.get(state);
+            if (statesVisitedInCluster.contains(state)) {
+                // If the state already visited
+                return;
+            } else if (transitions.size() == 0) {
+                // If the state has no transition
+                statesVisitedInCluster.add(state);
+                return;
+            } else if(!statesVisitedInCluster.contains(state)) {
+                // If the state is not visited yet
+                statesVisitedInCluster.add(state);
+
+                if (!state.getTypeN().equals("")){
+                    // If the state is a Faulty State and IS the same type as the first state in the cluster
+
+                    // Get common labels
+                    List <String> tmpLabels = new ArrayList<String>();
+                    List <String> tmpLabelsCommon = new ArrayList<String>();
+                    tmpLabelsCommon.addAll(labelsCommon);
+                    for (Transition stateLabels : lts.get(state)) {
+                        if (!tmpLabels.contains(stateLabels.getLabel())) {
+                            tmpLabels.add(stateLabels.getLabel());
+                        }
+                    }
+                    tmpLabelsCommon.retainAll(tmpLabels);
+
+                    // check if in a cluster
+                    boolean isInCluster = false;
+                    for (Cluster cluster : clusters) {
+                        if (cluster.getNeighborhoods().contains(state)) {
+                            isInCluster = true;
+                        }
+                    }
+
+                    if (tmpLabelsCommon.size() != 0 && state.getTypeN().equals(stateOne.getTypeN()) && isInCluster == false) {
+                        tmpLabels.removeAll(labelsAll);
+                        labelsAll.addAll(tmpLabels);
+                        labelsCommon.clear();
+                        labelsCommon.addAll(tmpLabelsCommon);
+                        statesCluster.add(state);
+                    } 
+                }
+
+                for (Transition transition : transitions) {
+                    if (transition.getColor().equals("BLACK")) {
+                        traverseCluster(lts, transition.getTarget(), stateOne, statesCluster, statesVisitedInCluster,
+                            labelsCommon, labelsAll, clusters);
+                    }
+                }
+            }
     }
     
-    static void traverseLTS(Map <State, List<Transition>> lts, State state, List <State> tmpListVisited, List <Cluster> tmpClusters) {
-       
+    static void traverseLTS(Map <State, List<Transition>> lts, State state, List <State> statesVisited, List <Cluster> clusters) {
+        List <Transition> transitions = lts.get(state);
+        if (statesVisited.contains(state)) {
+            // If the state already visited
+            return;
+        } else if (transitions.size() == 0) {
+            // If the state has no transition
+            statesVisited.add(state);
+            return;
+        } else if(!statesVisited.contains(state)) {
+            // System.out.println("visited " + state.getId());    
+            // If the state is not visited yet
+            statesVisited.add(state);
+            boolean isInCluster = false;
+            for (Cluster cluster : clusters) {
+                if (cluster.getNeighborhoods().contains(state)) {
+                    isInCluster = true;
+                }
+            }
+
+            if (!state.getTypeN().equals("") && isInCluster == false) {
+                // If the state IS a Faulty State AND IS NOT in a any cluster yet
+                List <State> statesCluster = new ArrayList<State>();
+                List <State> statesVisitedInCluster = new ArrayList<State>();        
+                List <String> labelsCommon = new ArrayList<String>();
+                List <String> labelsAll = new ArrayList<String>();
+                for (Transition stateLabel : lts.get(state)) {
+                    if (!labelsCommon.contains(stateLabel.getLabel())) {
+                        labelsCommon.add(stateLabel.getLabel());
+                    }
+                }
+                traverseCluster(lts, state, state, statesCluster, statesVisitedInCluster, labelsCommon, labelsAll, clusters);
+                Cluster cluster = new Cluster(statesCluster.size(), state.getTypeN(), statesCluster, labelsCommon, labelsAll);
+                clusters.add(cluster);
+            }
+
+            // Continue to the next state
+            for (Transition transition : transitions) {
+                if (transition.getColor().equals("BLACK")) {
+                    traverseLTS(lts, transition.getTarget(), statesVisited, clusters);
+                }
+            }
+        } 
     }
 
     static void printClusters(List<Cluster> tmpClusters, String fileNameNew) {
-
-
-        // write to file
         try {
             FileWriter fw = new FileWriter(fileNameNew, true);
             BufferedWriter bw = new BufferedWriter(fw);
@@ -297,6 +387,7 @@ public class newLTS {
 
         // Init LTS and list of strings
         Map<State,List<Transition>> ltsMap = new HashMap<State, List<Transition>>();
+        Map<State,List<Transition>> ltsMapBack = new HashMap<State, List<Transition>>();
         Map<Integer, String> mapN = new HashMap<Integer, String>();
         String fileName = args[0]+".autx";
         String fileNameNew = args[0]+"_clusters.txt";
@@ -323,6 +414,7 @@ public class newLTS {
         // printN(mapN);
         State firstState = new State(0, getStateColor(0), mapN.get(0));
         ltsMap.put(firstState, new ArrayList<Transition>());
+        ltsMapBack.put(firstState, new ArrayList<Transition>());
 
         // Loop through the list
         for (String row : listring) {
@@ -354,10 +446,28 @@ public class newLTS {
             ltsMap.put(sourceState, tmpList);
         }
 
+        // We have to re-order the transitions such that we always traverse the Faulty States first
+        for (Map.Entry <State, List<Transition>> mapElement  : ltsMap.entrySet()) {           
+            List<Transition> transitions = mapElement.getValue();
+            int transOrder = 0;
+            int transOrderSwap = 0;
+            if (transitions.size() > 1) {
+                for (Transition transition : transitions) {
+                    if(transition.getTarget().getTypeN()!= ""){ // A faulty state
+                        Transition tmpFirstTransition = transitions.get(transOrderSwap);
+                        transitions.set(transOrderSwap, transition);
+                        transitions.set(transOrder, tmpFirstTransition);
+                        transOrderSwap++;
+                    }
+                    transOrder++;
+                }
+            }
+        }
+
         // printLTS(ltsMap);
-        List <State> tmpListVisited = new ArrayList<State>();
-        List <Cluster> tmpClusters = new ArrayList<Cluster>();
-        traverseLTS(ltsMap, firstState, tmpListVisited, tmpClusters);
-        printClusters(tmpClusters, fileNameNew);
+        List <State> statesVisited = new ArrayList<State>();
+        List <Cluster> clusters = new ArrayList<Cluster>();
+        traverseLTS(ltsMap, firstState, statesVisited, clusters);
+        printClusters(clusters, fileNameNew);
     }
 }

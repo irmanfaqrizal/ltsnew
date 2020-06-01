@@ -1,0 +1,252 @@
+Number of Clusters = 13
+
+> Cluster Id = 1
+>>> Number of Faulty States  = 9
+>>> Faulty State Type = R
+>>> Faulty States =>
+>>>>> State Id 3, N = R
+>>>>> State Id 7, N = R
+>>>>> State Id 25, N = R
+>>>>> State Id 70, N = R
+>>>>> State Id 145, N = R
+>>>>> State Id 26, N = R
+>>>>> State Id 72, N = R
+>>>>> State Id 8, N = R
+>>>>> State Id 28, N = R
+>>> Common Label => 
+>>>>> "DUM11"
+>>>>> "DUM8"
+>>>>> "A"
+>>> All Labels =>
+>>>>> "DUM11"
+>>>>> "DUM5"
+>>>>> "DUM7"
+>>>>> "DUM8"
+>>>>> "A"
+>>>>> "DUM6"
+>>>>> "DUM13"
+
+> Cluster Id = 2
+>>> Number of Faulty States  = 17
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 6, N = GRB
+>>>>> State Id 21, N = GRB
+>>>>> State Id 61, N = GRB
+>>>>> State Id 131, N = GRB
+>>>>> State Id 219, N = GRB
+>>>>> State Id 132, N = GRB
+>>>>> State Id 221, N = GRB
+>>>>> State Id 62, N = GRB
+>>>>> State Id 134, N = GRB
+>>>>> State Id 22, N = GRB
+>>>>> State Id 64, N = GRB
+>>>>> State Id 137, N = GRB
+>>>>> State Id 227, N = GRB
+>>>>> State Id 65, N = GRB
+>>>>> State Id 139, N = GRB
+>>>>> State Id 23, N = GRB
+>>>>> State Id 67, N = GRB
+>>> Common Label => 
+>>>>> "A"
+>>>>> "DUM8"
+>>> All Labels =>
+>>>>> "DUM12"
+>>>>> "DUM5"
+>>>>> "DUM7"
+>>>>> "A"
+>>>>> "DUM8"
+>>>>> "DUM6"
+>>>>> "DUM13"
+
+> Cluster Id = 3
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = GR
+>>> Faulty States =>
+>>>>> State Id 301, N = GR
+>>> Common Label => 
+>>>>> "DUM8"
+>>>>> "A"
+>>> All Labels =>
+>>>>> "DUM8"
+>>>>> "A"
+
+> Cluster Id = 4
+>>> Number of Faulty States  = 2
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 235, N = GRB
+>>>>> State Id 315, N = GRB
+>>> Common Label => 
+>>>>> "A"
+>>>>> "DUM11"
+>>> All Labels =>
+>>>>> "DUM9"
+>>>>> "A"
+>>>>> "DUM11"
+>>>>> "DUM10"
+
+> Cluster Id = 5
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = GR
+>>> Faulty States =>
+>>>>> State Id 367, N = GR
+>>> Common Label => 
+>>>>> "DUM11"
+>>>>> "A"
+>>> All Labels =>
+>>>>> "DUM11"
+>>>>> "A"
+
+> Cluster Id = 6
+>>> Number of Faulty States  = 3
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 146, N = GRB
+>>>>> State Id 236, N = GRB
+>>>>> State Id 316, N = GRB
+>>> Common Label => 
+>>>>> "DUM13"
+>>>>> "DUM11"
+>>>>> "A"
+>>> All Labels =>
+>>>>> "DUM13"
+>>>>> "DUM9"
+>>>>> "DUM11"
+>>>>> "A"
+>>>>> "DUM10"
+
+> Cluster Id = 7
+>>> Number of Faulty States  = 3
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 71, N = GRB
+>>>>> State Id 147, N = GRB
+>>>>> State Id 237, N = GRB
+>>> Common Label => 
+>>>>> "DUM7"
+>>>>> "DUM11"
+>>>>> "A"
+>>> All Labels =>
+>>>>> "DUM7"
+>>>>> "DUM9"
+>>>>> "DUM11"
+>>>>> "A"
+>>>>> "DUM10"
+
+> Cluster Id = 8
+>>> Number of Faulty States  = 3
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 148, N = GRB
+>>>>> State Id 238, N = GRB
+>>>>> State Id 317, N = GRB
+>>> Common Label => 
+>>>>> "DUM6"
+>>>>> "DUM11"
+>>>>> "A"
+>>> All Labels =>
+>>>>> "DUM6"
+>>>>> "DUM9"
+>>>>> "DUM11"
+>>>>> "A"
+>>>>> "DUM10"
+
+> Cluster Id = 9
+>>> Number of Faulty States  = 3
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 73, N = GRB
+>>>>> State Id 149, N = GRB
+>>>>> State Id 239, N = GRB
+>>> Common Label => 
+>>>>> "DUM6"
+>>>>> "DUM13"
+>>>>> "A"
+>>>>> "DUM11"
+>>> All Labels =>
+>>>>> "DUM6"
+>>>>> "DUM13"
+>>>>> "DUM9"
+>>>>> "A"
+>>>>> "DUM11"
+>>>>> "DUM10"
+
+> Cluster Id = 10
+>>> Number of Faulty States  = 3
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 27, N = GRB
+>>>>> State Id 74, N = GRB
+>>>>> State Id 150, N = GRB
+>>> Common Label => 
+>>>>> "DUM6"
+>>>>> "DUM7"
+>>>>> "A"
+>>>>> "DUM11"
+>>> All Labels =>
+>>>>> "DUM6"
+>>>>> "DUM7"
+>>>>> "DUM9"
+>>>>> "A"
+>>>>> "DUM11"
+>>>>> "DUM10"
+
+> Cluster Id = 11
+>>> Number of Faulty States  = 3
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 75, N = GRB
+>>>>> State Id 151, N = GRB
+>>>>> State Id 240, N = GRB
+>>> Common Label => 
+>>>>> "DUM5"
+>>>>> "DUM11"
+>>>>> "A"
+>>> All Labels =>
+>>>>> "DUM5"
+>>>>> "DUM9"
+>>>>> "DUM11"
+>>>>> "A"
+>>>>> "DUM10"
+
+> Cluster Id = 12
+>>> Number of Faulty States  = 3
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 29, N = GRB
+>>>>> State Id 76, N = GRB
+>>>>> State Id 152, N = GRB
+>>> Common Label => 
+>>>>> "DUM5"
+>>>>> "DUM13"
+>>>>> "A"
+>>>>> "DUM11"
+>>> All Labels =>
+>>>>> "DUM5"
+>>>>> "DUM13"
+>>>>> "DUM9"
+>>>>> "A"
+>>>>> "DUM11"
+>>>>> "DUM10"
+
+> Cluster Id = 13
+>>> Number of Faulty States  = 3
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 9, N = GRB
+>>>>> State Id 30, N = GRB
+>>>>> State Id 77, N = GRB
+>>> Common Label => 
+>>>>> "DUM5"
+>>>>> "DUM7"
+>>>>> "A"
+>>>>> "DUM11"
+>>> All Labels =>
+>>>>> "DUM5"
+>>>>> "DUM7"
+>>>>> "DUM9"
+>>>>> "A"
+>>>>> "DUM11"
+>>>>> "DUM10"
+
