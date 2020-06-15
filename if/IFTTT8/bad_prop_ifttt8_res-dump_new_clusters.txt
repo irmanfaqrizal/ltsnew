@@ -1,0 +1,544 @@
+Number of Clusters = 20
+
+> Cluster Id = 1
+>>> Number of Faulty States  = 48
+>>> Faulty State Type = G
+>>> Faulty States =>
+>>>>> State Id 1, N = G
+>>>>> State Id 7, N = G
+>>>>> State Id 26, N = G
+>>>>> State Id 70, N = G
+>>>>> State Id 153, N = G
+>>>>> State Id 297, N = G
+>>>>> State Id 509, N = G
+>>>>> State Id 783, N = G
+>>>>> State Id 1110, N = G
+>>>>> State Id 298, N = G
+>>>>> State Id 27, N = G
+>>>>> State Id 72, N = G
+>>>>> State Id 157, N = G
+>>>>> State Id 303, N = G
+>>>>> State Id 516, N = G
+>>>>> State Id 792, N = G
+>>>>> State Id 1118, N = G
+>>>>> State Id 304, N = G
+>>>>> State Id 30, N = G
+>>>>> State Id 78, N = G
+>>>>> State Id 166, N = G
+>>>>> State Id 317, N = G
+>>>>> State Id 532, N = G
+>>>>> State Id 809, N = G
+>>>>> State Id 167, N = G
+>>>>> State Id 10, N = G
+>>>>> State Id 39, N = G
+>>>>> State Id 103, N = G
+>>>>> State Id 222, N = G
+>>>>> State Id 410, N = G
+>>>>> State Id 664, N = G
+>>>>> State Id 977, N = G
+>>>>> State Id 1320, N = G
+>>>>> State Id 411, N = G
+>>>>> State Id 41, N = G
+>>>>> State Id 108, N = G
+>>>>> State Id 231, N = G
+>>>>> State Id 425, N = G
+>>>>> State Id 683, N = G
+>>>>> State Id 999, N = G
+>>>>> State Id 232, N = G
+>>>>> State Id 12, N = G
+>>>>> State Id 46, N = G
+>>>>> State Id 117, N = G
+>>>>> State Id 246, N = G
+>>>>> State Id 444, N = G
+>>>>> State Id 705, N = G
+>>>>> State Id 118, N = G
+>>> Common Label => 
+>>>>> "SWITCHOFF"
+>>> All Labels =>
+>>>>> "SWITCHOFF"
+>>>>> "LIGHTOFF"
+>>>>> "LIGHTON"
+>>>>> "MOVEIN"
+>>>>> "MOVEOUT"
+>>>>> "WARM"
+>>>>> "LIGHTOFF_READ"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+
+> Cluster Id = 2
+>>> Number of Faulty States  = 8
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 67, N = GRB
+>>>>> State Id 146, N = GRB
+>>>>> State Id 285, N = GRB
+>>>>> State Id 489, N = GRB
+>>>>> State Id 757, N = GRB
+>>>>> State Id 1080, N = GRB
+>>>>> State Id 490, N = GRB
+>>>>> State Id 9, N = GRB
+>>> Common Label => 
+>>>>> "SWITCHOFF"
+>>>>> "LIGHTON"
+>>> All Labels =>
+>>>>> "SWITCHOFF"
+>>>>> "LIGHTON"
+>>>>> "WARM"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+>>>>> "LIGHTOFF"
+
+> Cluster Id = 3
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = GR
+>>> Faulty States =>
+>>>>> State Id 1420, N = GR
+>>> Common Label => 
+>>>>> "SWITCHOFF"
+>>>>> "LIGHTON"
+>>> All Labels =>
+>>>>> "SWITCHOFF"
+>>>>> "LIGHTON"
+
+> Cluster Id = 4
+>>> Number of Faulty States  = 24
+>>> Faulty State Type = R
+>>> Faulty States =>
+>>>>> State Id 8, N = R
+>>>>> State Id 31, N = R
+>>>>> State Id 82, N = R
+>>>>> State Id 176, N = R
+>>>>> State Id 336, N = R
+>>>>> State Id 565, N = R
+>>>>> State Id 853, N = R
+>>>>> State Id 1189, N = R
+>>>>> State Id 337, N = R
+>>>>> State Id 33, N = R
+>>>>> State Id 86, N = R
+>>>>> State Id 186, N = R
+>>>>> State Id 354, N = R
+>>>>> State Id 587, N = R
+>>>>> State Id 883, N = R
+>>>>> State Id 1221, N = R
+>>>>> State Id 355, N = R
+>>>>> State Id 35, N = R
+>>>>> State Id 91, N = R
+>>>>> State Id 194, N = R
+>>>>> State Id 366, N = R
+>>>>> State Id 602, N = R
+>>>>> State Id 899, N = R
+>>>>> State Id 195, N = R
+>>> Common Label => 
+>>>>> "SWITCHOFF"
+>>> All Labels =>
+>>>>> "LIGHTON_READ"
+>>>>> "MOVEIN"
+>>>>> "MOVEOUT"
+>>>>> "SWITCHOFF"
+>>>>> "WARM"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+
+> Cluster Id = 5
+>>> Number of Faulty States  = 7
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 80, N = GRB
+>>>>> State Id 171, N = GRB
+>>>>> State Id 328, N = GRB
+>>>>> State Id 553, N = GRB
+>>>>> State Id 838, N = GRB
+>>>>> State Id 1173, N = GRB
+>>>>> State Id 554, N = GRB
+>>> Common Label => 
+>>>>> "LIGHTOFF"
+>>>>> "SWITCHOFF"
+>>> All Labels =>
+>>>>> "LIGHTOFF"
+>>>>> "SWITCHOFF"
+>>>>> "WARM"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+
+> Cluster Id = 6
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = GR
+>>> Faulty States =>
+>>>>> State Id 1517, N = GR
+>>> Common Label => 
+>>>>> "LIGHTOFF"
+>>>>> "SWITCHOFF"
+>>> All Labels =>
+>>>>> "LIGHTOFF"
+>>>>> "SWITCHOFF"
+
+> Cluster Id = 7
+>>> Number of Faulty States  = 8
+>>> Faulty State Type = R
+>>> Faulty States =>
+>>>>> State Id 36, N = R
+>>>>> State Id 94, N = R
+>>>>> State Id 202, N = R
+>>>>> State Id 379, N = R
+>>>>> State Id 622, N = R
+>>>>> State Id 925, N = R
+>>>>> State Id 1266, N = R
+>>>>> State Id 380, N = R
+>>> Common Label => 
+>>>>> "LIGHTON_READ"
+>>>>> "SWITCHOFF"
+>>> All Labels =>
+>>>>> "LIGHTON_READ"
+>>>>> "SWITCHOFF"
+>>>>> "WARM"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+
+> Cluster Id = 8
+>>> Number of Faulty States  = 8
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 92, N = GRB
+>>>>> State Id 197, N = GRB
+>>>>> State Id 371, N = GRB
+>>>>> State Id 610, N = GRB
+>>>>> State Id 910, N = GRB
+>>>>> State Id 1250, N = GRB
+>>>>> State Id 611, N = GRB
+>>>>> State Id 59, N = GRB
+>>> Common Label => 
+>>>>> "LIGHTOFF"
+>>>>> "LIGHTON"
+>>> All Labels =>
+>>>>> "LIGHTOFF"
+>>>>> "LIGHTON"
+>>>>> "SWITCHOFF"
+>>>>> "WARM"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+>>>>> "LATE"
+
+> Cluster Id = 9
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = GR
+>>> Faulty States =>
+>>>>> State Id 1588, N = GR
+>>> Common Label => 
+>>>>> "LIGHTOFF"
+>>>>> "LIGHTON"
+>>>>> "SWITCHOFF"
+>>> All Labels =>
+>>>>> "LIGHTOFF"
+>>>>> "LIGHTON"
+>>>>> "SWITCHOFF"
+
+> Cluster Id = 10
+>>> Number of Faulty States  = 7
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 38, N = GRB
+>>>>> State Id 100, N = GRB
+>>>>> State Id 215, N = GRB
+>>>>> State Id 401, N = GRB
+>>>>> State Id 651, N = GRB
+>>>>> State Id 961, N = GRB
+>>>>> State Id 216, N = GRB
+>>> Common Label => 
+>>>>> "SWITCHOFF"
+>>>>> "LIGHTOFF"
+>>>>> "LIGHTON"
+>>> All Labels =>
+>>>>> "SWITCHOFF"
+>>>>> "LIGHTOFF"
+>>>>> "LIGHTON"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+
+> Cluster Id = 11
+>>> Number of Faulty States  = 8
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 101, N = GRB
+>>>>> State Id 218, N = GRB
+>>>>> State Id 405, N = GRB
+>>>>> State Id 656, N = GRB
+>>>>> State Id 968, N = GRB
+>>>>> State Id 1312, N = GRB
+>>>>> State Id 657, N = GRB
+>>>>> State Id 62, N = GRB
+>>> Common Label => 
+>>>>> "LIGHTOFF"
+>>>>> "LIGHTON"
+>>> All Labels =>
+>>>>> "SWITCHOFF"
+>>>>> "LIGHTOFF"
+>>>>> "LIGHTON"
+>>>>> "WARM"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+>>>>> "LATE"
+
+> Cluster Id = 12
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = GR
+>>> Faulty States =>
+>>>>> State Id 1644, N = GR
+>>> Common Label => 
+>>>>> "SWITCHOFF"
+>>>>> "LIGHTOFF"
+>>>>> "LIGHTON"
+>>> All Labels =>
+>>>>> "SWITCHOFF"
+>>>>> "LIGHTOFF"
+>>>>> "LIGHTON"
+
+> Cluster Id = 13
+>>> Number of Faulty States  = 16
+>>> Faulty State Type = G
+>>> Faulty States =>
+>>>>> State Id 2, N = G
+>>>>> State Id 13, N = G
+>>>>> State Id 49, N = G
+>>>>> State Id 123, N = G
+>>>>> State Id 253, N = G
+>>>>> State Id 453, N = G
+>>>>> State Id 714, N = G
+>>>>> State Id 1030, N = G
+>>>>> State Id 254, N = G
+>>>>> State Id 16, N = G
+>>>>> State Id 52, N = G
+>>>>> State Id 126, N = G
+>>>>> State Id 259, N = G
+>>>>> State Id 456, N = G
+>>>>> State Id 717, N = G
+>>>>> State Id 127, N = G
+>>> Common Label => 
+>>>>> "MOVEOUT"
+>>>>> "LATE"
+>>>>> "MOVEIN"
+>>> All Labels =>
+>>>>> "MOVEOUT"
+>>>>> "LATE"
+>>>>> "LIGHTOFF_READ"
+>>>>> "MOVEIN"
+>>>>> "WARM"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+
+> Cluster Id = 14
+>>> Number of Faulty States  = 9
+>>> Faulty State Type = R
+>>> Faulty States =>
+>>>>> State Id 47, N = R
+>>>>> State Id 120, N = R
+>>>>> State Id 249, N = R
+>>>>> State Id 447, N = R
+>>>>> State Id 709, N = R
+>>>>> State Id 1025, N = R
+>>>>> State Id 1365, N = R
+>>>>> State Id 448, N = R
+>>>>> State Id 4, N = R
+>>> Common Label => 
+>>>>> "LATE"
+>>>>> "LIGHTON"
+>>> All Labels =>
+>>>>> "LATE"
+>>>>> "LIGHTON"
+>>>>> "WARM"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+>>>>> "LIGHTOFF"
+
+> Cluster Id = 15
+>>> Number of Faulty States  = 16
+>>> Faulty State Type = R
+>>> Faulty States =>
+>>>>> State Id 3, N = R
+>>>>> State Id 17, N = R
+>>>>> State Id 55, N = R
+>>>>> State Id 130, N = R
+>>>>> State Id 262, N = R
+>>>>> State Id 461, N = R
+>>>>> State Id 720, N = R
+>>>>> State Id 1035, N = R
+>>>>> State Id 263, N = R
+>>>>> State Id 20, N = R
+>>>>> State Id 58, N = R
+>>>>> State Id 133, N = R
+>>>>> State Id 268, N = R
+>>>>> State Id 464, N = R
+>>>>> State Id 723, N = R
+>>>>> State Id 134, N = R
+>>> Common Label => 
+>>>>> "LATE"
+>>>>> "MOVEIN"
+>>>>> "MOVEOUT"
+>>> All Labels =>
+>>>>> "LATE"
+>>>>> "LIGHTON_READ"
+>>>>> "MOVEIN"
+>>>>> "MOVEOUT"
+>>>>> "WARM"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+
+> Cluster Id = 16
+>>> Number of Faulty States  = 9
+>>> Faulty State Type = G
+>>> Faulty States =>
+>>>>> State Id 54, N = G
+>>>>> State Id 129, N = G
+>>>>> State Id 261, N = G
+>>>>> State Id 459, N = G
+>>>>> State Id 719, N = G
+>>>>> State Id 1034, N = G
+>>>>> State Id 1370, N = G
+>>>>> State Id 460, N = G
+>>>>> State Id 5, N = G
+>>> Common Label => 
+>>>>> "LIGHTOFF"
+>>>>> "LATE"
+>>> All Labels =>
+>>>>> "LIGHTOFF"
+>>>>> "LATE"
+>>>>> "WARM"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+>>>>> "LIGHTON"
+
+> Cluster Id = 17
+>>> Number of Faulty States  = 7
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 135, N = GRB
+>>>>> State Id 269, N = GRB
+>>>>> State Id 465, N = GRB
+>>>>> State Id 724, N = GRB
+>>>>> State Id 1038, N = GRB
+>>>>> State Id 1371, N = GRB
+>>>>> State Id 466, N = GRB
+>>> Common Label => 
+>>>>> "LIGHTOFF"
+>>>>> "LATE"
+>>>>> "LIGHTON"
+>>> All Labels =>
+>>>>> "LIGHTOFF"
+>>>>> "LATE"
+>>>>> "LIGHTON"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+
+> Cluster Id = 18
+>>> Number of Faulty States  = 7
+>>> Faulty State Type = R
+>>> Faulty States =>
+>>>>> State Id 22, N = R
+>>>>> State Id 61, N = R
+>>>>> State Id 137, N = R
+>>>>> State Id 272, N = R
+>>>>> State Id 468, N = R
+>>>>> State Id 726, N = R
+>>>>> State Id 138, N = R
+>>> Common Label => 
+>>>>> "LATE"
+>>>>> "LIGHTOFF"
+>>>>> "LIGHTON"
+>>> All Labels =>
+>>>>> "LATE"
+>>>>> "LIGHTOFF"
+>>>>> "LIGHTON"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+
+> Cluster Id = 19
+>>> Number of Faulty States  = 7
+>>> Faulty State Type = GRB
+>>> Faulty States =>
+>>>>> State Id 139, N = GRB
+>>>>> State Id 273, N = GRB
+>>>>> State Id 469, N = GRB
+>>>>> State Id 727, N = GRB
+>>>>> State Id 1040, N = GRB
+>>>>> State Id 1372, N = GRB
+>>>>> State Id 470, N = GRB
+>>> Common Label => 
+>>>>> "LIGHTOFF"
+>>>>> "LATE"
+>>>>> "LIGHTON"
+>>> All Labels =>
+>>>>> "LIGHTOFF"
+>>>>> "LATE"
+>>>>> "LIGHTON"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+
+> Cluster Id = 20
+>>> Number of Faulty States  = 7
+>>> Faulty State Type = G
+>>> Faulty States =>
+>>>>> State Id 24, N = G
+>>>>> State Id 64, N = G
+>>>>> State Id 141, N = G
+>>>>> State Id 276, N = G
+>>>>> State Id 472, N = G
+>>>>> State Id 729, N = G
+>>>>> State Id 142, N = G
+>>> Common Label => 
+>>>>> "LIGHTOFF"
+>>>>> "LATE"
+>>>>> "LIGHTON"
+>>> All Labels =>
+>>>>> "LIGHTOFF"
+>>>>> "LATE"
+>>>>> "LIGHTON"
+>>>>> "OPENWINDOW"
+>>>>> "COLD"
+>>>>> "OPENWINDOW_READ"
+>>>>> "CLOSEWINDOW"
+>>>>> "CLOSEWINDOW_READ"
+

@@ -1,0 +1,23 @@
+Number of Clusters = 3
+
+> Cluster Id = 1
+>>> Number of Faulty States  = 1
+>>> Faulty State Type		 = Neutral + Correct
+>>> Faulty States			 = 2, 
+>>> Common Label			 = "FINISH" (GREEN), "FLIGHT_BOOKING" (BLACK), "MISSION_AUTHORIZATION" (BLACK), "MISSION_PAPERWORK" (BLACK), 
+>>> Involved Labels			 = "FINISH" (GREEN), "FLIGHT_BOOKING" (BLACK), "MISSION_AUTHORIZATION" (BLACK), "MISSION_PAPERWORK" (BLACK), 
+
+> Cluster Id = 2
+>>> Number of Faulty States  = 4
+>>> Faulty State Type		 = Neutral + Correct + Incorrect
+>>> Faulty States			 = 4, 9, 12, 21, 
+>>> Common Label			 = "INSURANCE" (GREEN), "LOCAL_TRANSPORTATION" (RED), "VACCINATION" (RED), 
+>>> Involved Labels			 = "HOTEL_RESERVATION" (BLACK), "HOTEL_RESERVATION" (GREEN), "HOTEL_RESERVATION" (RED), "INSURANCE" (GREEN), "LOCAL_TRANSPORTATION" (RED), "MISSION_PAPERWORK" (BLACK), "MISSION_PAPERWORK" (GREEN), "MISSION_PAPERWORK" (RED), "VACCINATION" (RED), "VISA_PROCESS" (BLACK), "VISA_PROCESS" (GREEN), "VISA_PROCESS" (RED), 
+
+> Cluster Id = 3
+>>> Number of Faulty States  = 1
+>>> Faulty State Type		 = Correct + Incorrect
+>>> Faulty States			 = 29, 
+>>> Common Label			 = "INSURANCE" (GREEN), "LOCAL_TRANSPORTATION" (RED), "VACCINATION" (RED), 
+>>> Involved Labels			 = "INSURANCE" (GREEN), "LOCAL_TRANSPORTATION" (RED), "VACCINATION" (RED), 
+

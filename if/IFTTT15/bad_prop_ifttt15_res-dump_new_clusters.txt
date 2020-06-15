@@ -1,0 +1,93 @@
+Number of Clusters = 13
+
+> Cluster Id = 1
+>>> Number of Faulty States  = 1
+>>> Faulty State Type		 = Correct + Incorrect
+>>> Faulty States			 = 506, 
+>>> Common Label			 = "SWITCHOFF" (GREEN), "LIGHTON" (RED), 
+>>> Involved Labels			 = "SWITCHOFF" (GREEN), "LIGHTON" (RED), 
+
+> Cluster Id = 2
+>>> Number of Faulty States  = 1
+>>> Faulty State Type		 = Correct + Incorrect
+>>> Faulty States			 = 513, 
+>>> Common Label			 = "LIGHTOFF" (GREEN), "SWITCHOFF" (RED), 
+>>> Involved Labels			 = "LIGHTOFF" (GREEN), "SWITCHOFF" (RED), 
+
+> Cluster Id = 3
+>>> Number of Faulty States  = 1
+>>> Faulty State Type		 = Correct + Incorrect
+>>> Faulty States			 = 519, 
+>>> Common Label			 = "LIGHTOFF" (GREEN), "LIGHTON" (RED), "SWITCHOFF" (RED), 
+>>> Involved Labels			 = "LIGHTOFF" (GREEN), "LIGHTON" (RED), "SWITCHOFF" (RED), 
+
+> Cluster Id = 4
+>>> Number of Faulty States  = 1
+>>> Faulty State Type		 = Correct + Incorrect
+>>> Faulty States			 = 524, 
+>>> Common Label			 = "SWITCHOFF" (GREEN), "LIGHTOFF" (GREEN), "LIGHTON" (RED), 
+>>> Involved Labels			 = "SWITCHOFF" (GREEN), "LIGHTOFF" (GREEN), "LIGHTON" (RED), 
+
+> Cluster Id = 5
+>>> Number of Faulty States  = 36
+>>> Faulty State Type		 = Neutral + Correct
+>>> Faulty States			 = 2, 9, 34, 91, 192, 336, 337, 195, 346, 96, 205, 206, 99, 215, 39, 109, 110, 42, 119, 14, 52, 132, 260, 53, 134, 263, 56, 140, 17, 65, 164, 311, 67, 168, 19, 72, 
+>>> Common Label			 = "SWITCHOFF" (GREEN), 
+>>> Involved Labels			 = "SWITCHOFF" (GREEN), "COLD" (BLACK), "LIGHTOFF" (BLACK), "LIGHTON" (BLACK), "MOVEIN" (BLACK), "MOVEOUT" (BLACK), "WARM" (BLACK), "CLOSEWINDOW" (BLACK), "CLOSEWINDOW_READ" (BLACK), "MOVEOUT" (GREEN), "LIGHTOFF_READ" (BLACK), "LIGHTOFF" (GREEN), "OPENWINDOW" (BLACK), "OPENWINDOW_READ" (BLACK), 
+
+> Cluster Id = 6
+>>> Number of Faulty States  = 5
+>>> Faulty State Type		 = Neutral + Correct + Incorrect
+>>> Faulty States			 = 142, 233, 364, 273, 446, 
+>>> Common Label			 = "LIGHTOFF" (GREEN), "SWITCHOFF" (RED), 
+>>> Involved Labels			 = "LIGHTOFF" (GREEN), "COLD" (BLACK), "SWITCHOFF" (RED), "WARM" (BLACK), "CLOSEWINDOW" (BLACK), "CLOSEWINDOW_READ" (BLACK), "OPENWINDOW" (BLACK), "OPENWINDOW_READ" (BLACK), 
+
+> Cluster Id = 7
+>>> Number of Faulty States  = 16
+>>> Faulty State Type		 = Neutral + Correct + Incorrect
+>>> Faulty States			 = 16, 41, 98, 194, 356, 371, 226, 239, 129, 254, 422, 154, 294, 470, 64, 161, 
+>>> Common Label			 = "LIGHTON" (RED), 
+>>> Involved Labels			 = "SWITCHOFF" (GREEN), "COLD" (BLACK), "LIGHTOFF" (BLACK), "LIGHTON" (RED), "LIGHTON" (BLACK), "WARM" (BLACK), "CLOSEWINDOW" (BLACK), "CLOSEWINDOW_READ" (BLACK), "LIGHTOFF" (GREEN), "SWITCHOFF" (RED), "OPENWINDOW" (BLACK), "OPENWINDOW_READ" (BLACK), 
+
+> Cluster Id = 8
+>>> Number of Faulty States  = 12
+>>> Faulty State Type		 = Neutral + Correct
+>>> Faulty States			 = 3, 10, 35, 92, 197, 101, 44, 20, 75, 180, 23, 78, 
+>>> Common Label			 = "MOVEOUT" (GREEN), "LATE" (BLACK), "MOVEIN" (BLACK), 
+>>> Involved Labels			 = "MOVEOUT" (GREEN), "COLD" (BLACK), "LATE" (BLACK), "LIGHTOFF_READ" (BLACK), "MOVEIN" (BLACK), "WARM" (BLACK), "CLOSEWINDOW" (BLACK), "CLOSEWINDOW_READ" (BLACK), "OPENWINDOW" (BLACK), "OPENWINDOW_READ" (BLACK), 
+
+> Cluster Id = 9
+>>> Number of Faulty States  = 24
+>>> Faulty State Type		 = Neutral + Incorrect
+>>> Faulty States			 = 4, 11, 36, 93, 193, 340, 200, 97, 209, 104, 40, 113, 47, 15, 57, 144, 278, 61, 153, 24, 81, 185, 27, 84, 
+>>> Common Label			 = "MOVEIN" (RED), "MOVEOUT" (BLACK), 
+>>> Involved Labels			 = "COLD" (BLACK), "LATE" (BLACK), "LIGHTON_READ" (BLACK), "MOVEIN" (RED), "MOVEOUT" (BLACK), "WARM" (BLACK), "CLOSEWINDOW" (BLACK), "CLOSEWINDOW_READ" (BLACK), "SWITCHOFF" (RED), "OPENWINDOW" (BLACK), "OPENWINDOW_READ" (BLACK), 
+
+> Cluster Id = 10
+>>> Number of Faulty States  = 12
+>>> Faulty State Type		 = Neutral + Incorrect
+>>> Faulty States			 = 5, 12, 37, 94, 350, 220, 123, 73, 177, 328, 29, 87, 
+>>> Common Label			 = "LATE" (BLACK), "LIGHTON" (RED), 
+>>> Involved Labels			 = "COLD" (BLACK), "LATE" (BLACK), "LIGHTOFF" (BLACK), "LIGHTON" (RED), "LIGHTON" (BLACK), "WARM" (BLACK), "CLOSEWINDOW" (BLACK), "CLOSEWINDOW_READ" (BLACK), "OPENWINDOW" (BLACK), "OPENWINDOW_READ" (BLACK), 
+
+> Cluster Id = 11
+>>> Number of Faulty States  = 6
+>>> Faulty State Type		 = Neutral + Correct + Incorrect
+>>> Faulty States			 = 85, 127, 224, 354, 188, 334, 
+>>> Common Label			 = "LIGHTOFF" (GREEN), "LATE" (BLACK), "LIGHTON" (RED), 
+>>> Involved Labels			 = "LIGHTOFF" (GREEN), "COLD" (BLACK), "LATE" (BLACK), "LIGHTON" (RED), "WARM" (BLACK), "CLOSEWINDOW" (BLACK), "CLOSEWINDOW_READ" (BLACK), "OPENWINDOW" (BLACK), "OPENWINDOW_READ" (BLACK), 
+
+> Cluster Id = 12
+>>> Number of Faulty States  = 12
+>>> Faulty State Type		 = Neutral + Correct
+>>> Faulty States			 = 6, 13, 38, 95, 353, 223, 126, 80, 184, 333, 31, 90, 
+>>> Common Label			 = "LIGHTOFF" (GREEN), "LATE" (BLACK), 
+>>> Involved Labels			 = "LIGHTOFF" (GREEN), "COLD" (BLACK), "LATE" (BLACK), "LIGHTON" (BLACK), "LIGHTOFF" (BLACK), "WARM" (BLACK), "CLOSEWINDOW" (BLACK), "CLOSEWINDOW_READ" (BLACK), "OPENWINDOW" (BLACK), "OPENWINDOW_READ" (BLACK), 
+
+> Cluster Id = 13
+>>> Number of Faulty States  = 11
+>>> Faulty State Type		 = Neutral + Correct + Incorrect
+>>> Faulty States			 = 88, 128, 225, 355, 376, 244, 162, 308, 486, 190, 335, 
+>>> Common Label			 = "LIGHTOFF" (GREEN), "LIGHTON" (RED), 
+>>> Involved Labels			 = "LIGHTOFF" (GREEN), "COLD" (BLACK), "LATE" (BLACK), "LIGHTON" (RED), "WARM" (BLACK), "CLOSEWINDOW" (BLACK), "CLOSEWINDOW_READ" (BLACK), "SWITCHOFF" (GREEN), "OPENWINDOW" (BLACK), "OPENWINDOW_READ" (BLACK), 
+

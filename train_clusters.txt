@@ -1,58 +1,30 @@
 Number of Clusters = 4
 
 > Cluster Id = 1
->>> Number of Faulty States  = 4
->>> Faulty State Type = G
->>> Faulty States =>
->>>>> State Id 16, N = G
->>>>> State Id 18, N = G
->>>>> State Id 24, N = G
->>>>> State Id 22, N = G
->>> Common Label => 
->>>>> "INVOICE_REC"
->>> All Labels =>
->>>>> "ACK_REC"
->>>>> "ITINERARY_EM"
->>>>> "INVOICE_REC"
->>>>> "RESULT_EM"
+>>> Number of Faulty States  = 1
+>>> Faulty State Type		 = Correct + Incorrect
+>>> Faulty States			 = 31, 
+>>> Common Label			 = "INVOICE_REC" (GREEN), "RESULT_REC" (RED), 
+>>> Involved Labels			 = "INVOICE_REC" (GREEN), "RESULT_REC" (RED), 
 
 > Cluster Id = 2
 >>> Number of Faulty States  = 1
->>> Faulty State Type = GR
->>> Faulty States =>
->>>>> State Id 31, N = GR
->>> Common Label => 
->>>>> "INVOICE_REC"
->>>>> "RESULT_REC"
->>> All Labels =>
->>>>> "INVOICE_REC"
->>>>> "RESULT_REC"
+>>> Faulty State Type		 = Neutral + Correct + Incorrect
+>>> Faulty States			 = 25, 
+>>> Common Label			 = "INVOICE_REC" (GREEN), "ITINERARY_EM" (BLACK), "RESULT_REC" (RED), 
+>>> Involved Labels			 = "INVOICE_REC" (GREEN), "ITINERARY_EM" (BLACK), "RESULT_REC" (RED), 
 
 > Cluster Id = 3
->>> Number of Faulty States  = 1
->>> Faulty State Type = GRB
->>> Faulty States =>
->>>>> State Id 25, N = GRB
->>> Common Label => 
->>>>> "ITINERARY_EM"
->>>>> "INVOICE_REC"
->>>>> "RESULT_REC"
->>> All Labels =>
->>>>> "ITINERARY_EM"
->>>>> "INVOICE_REC"
->>>>> "RESULT_REC"
+>>> Number of Faulty States  = 2
+>>> Faulty State Type		 = Neutral + Incorrect
+>>> Faulty States			 = 20, 26, 
+>>> Common Label			 = "INVOICE_EM" (BLACK), "RESULT_REC" (RED), 
+>>> Involved Labels			 = "INVOICE_EM" (BLACK), "ITINERARY_EM" (BLACK), "RESULT_REC" (RED), 
 
 > Cluster Id = 4
->>> Number of Faulty States  = 2
->>> Faulty State Type = R
->>> Faulty States =>
->>>>> State Id 20, N = R
->>>>> State Id 26, N = R
->>> Common Label => 
->>>>> "INVOICE_EM"
->>>>> "RESULT_REC"
->>> All Labels =>
->>>>> "INVOICE_EM"
->>>>> "ITINERARY_EM"
->>>>> "RESULT_REC"
+>>> Number of Faulty States  = 4
+>>> Faulty State Type		 = Neutral + Correct
+>>> Faulty States			 = 16, 18, 22, 24, 
+>>> Common Label			 = "INVOICE_REC" (GREEN), 
+>>> Involved Labels			 = "ACK_REC" (BLACK), "INVOICE_REC" (GREEN), "ITINERARY_EM" (BLACK), "RESULT_EM" (BLACK), 
 

@@ -1,0 +1,7 @@
+(* we do not switch off when the light is on or the window open *)
+
+[ true* . "LIGHTON" . (not "LIGHTOFF")* . "SWITCHOFF" . true* ] false
+
+and
+
+[ true* . "OPENWINDOW" . (not "CLOSEWINDOW")* . "SWITCHOFF" . true* ] false

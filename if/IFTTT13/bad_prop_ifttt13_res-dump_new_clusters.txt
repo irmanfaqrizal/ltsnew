@@ -1,0 +1,9 @@
+Number of Clusters = 1
+
+> Cluster Id = 1
+>>> Number of Faulty States  = 1
+>>> Faulty State Type		 = Neutral + Incorrect
+>>> Faulty States			 = 0, 
+>>> Common Label			 = "COLD", "LATE", "LIGHTOFF", "LIGHTON", "MOVEIN", "MOVEOUT", "WARM", 
+>>> Involved Labels			 = "COLD", "LATE", "LIGHTOFF", "LIGHTON", "MOVEIN", "MOVEOUT", "WARM", 
+

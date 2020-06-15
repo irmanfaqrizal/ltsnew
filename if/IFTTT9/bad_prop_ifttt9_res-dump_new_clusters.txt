@@ -1,0 +1,16 @@
+Number of Clusters = 2
+
+> Cluster Id = 1
+>>> Number of Faulty States  = 6
+>>> Faulty State Type		 = Neutral + Correct
+>>> Faulty States			 = 0, 3, 8, 21, 24, 32, 
+>>> Common Label			 = "COLD" (BLACK), "LATE" (GREEN), "MOVEIN" (BLACK), "MOVEOUT" (BLACK), "WARM" (BLACK), 
+>>> Involved Labels			 = "CLOSEWINDOW_READ" (BLACK), "COLD" (BLACK), "LATE" (GREEN), "LIGHTOFF" (BLACK), "LIGHTOFF_READ" (BLACK), "LIGHTON" (BLACK), "MOVEIN" (BLACK), "MOVEOUT" (BLACK), "OPENWINDOW_READ" (BLACK), "WARM" (BLACK), 
+
+> Cluster Id = 2
+>>> Number of Faulty States  = 6
+>>> Faulty State Type		 = Neutral + Incorrect
+>>> Faulty States			 = 4, 17, 25, 39, 53, 69, 
+>>> Common Label			 = "COLD" (BLACK), "LATE" (RED), "MOVEIN" (BLACK), "MOVEOUT" (BLACK), "WARM" (BLACK), 
+>>> Involved Labels			 = "CLOSEWINDOW_READ" (BLACK), "COLD" (BLACK), "LATE" (RED), "LIGHTOFF" (BLACK), "LIGHTON" (BLACK), "LIGHTON_READ" (BLACK), "MOVEIN" (BLACK), "MOVEOUT" (BLACK), "OPENWINDOW_READ" (BLACK), "WARM" (BLACK), 
+

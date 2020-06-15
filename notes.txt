@@ -80,3 +80,16 @@ after finding one. -> to do this we observe the color of the state and the label
 28th may
 - If we have some states, and they have different labels. Which one should be added to the cluster (v)
 - if we have all read, are we sure that we don't any cluster? should it be 1 cluster? (mytest2)
+
+2 June
+- We dont check the listVisited (for the whole LTS) during traversal in a cluster, this is because we need to put in
+the function parameters (the complexity is not significant).
+
+TODO : 
+- why still need to re order
+- picture page 3 (need to traverse the state forward after backward)
+- need format  (see email)
+- should try 
+
+Notes:
+- to check the loop we can visit multiple times for the first state in the cluster

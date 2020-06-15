@@ -1,0 +1,32 @@
+Number of Clusters = 2
+
+> Cluster Id = 1
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = G
+>>> Faulty States =>
+>>>>> State Id 0, N = G
+>>> Common Label => 
+>>>>> "MOVEIN"
+>>>>> "COLD"
+>>>>> "WARM"
+>>>>> "MOVEOUT"
+>>>>> "LATE"
+>>> All Labels =>
+>>>>> "MOVEIN"
+>>>>> "COLD"
+>>>>> "WARM"
+>>>>> "MOVEOUT"
+>>>>> "LATE"
+
+> Cluster Id = 2
+>>> Number of Faulty States  = 1
+>>> Faulty State Type = GR
+>>> Faulty States =>
+>>>>> State Id 3, N = GR
+>>> Common Label => 
+>>>>> "LATE"
+>>>>> "LIGHTON"
+>>> All Labels =>
+>>>>> "LATE"
+>>>>> "LIGHTON"
+

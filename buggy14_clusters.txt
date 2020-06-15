@@ -2,66 +2,36 @@ Number of Clusters = 5
 
 > Cluster Id = 1
 >>> Number of Faulty States  = 1
->>> Faulty State Type = GR
->>> Faulty States =>
->>>>> State Id 4, N = GR
->>> Common Label => 
->>>>> "DD2"
->>>>> "A"
->>> All Labels =>
->>>>> "DD2"
->>>>> "A"
+>>> Faulty State Type		 = Correct + Incorrect
+>>> Faulty States			 = 4, 
+>>> Common Label			 = "A" (RED), "DD2" (GREEN), 
+>>> Involved Labels			 = "A" (RED), "DD2" (GREEN), 
 
 > Cluster Id = 2
->>> Number of Faulty States  = 3
->>> Faulty State Type = R
->>> Faulty States =>
->>>>> State Id 6, N = R
->>>>> State Id 27, N = R
->>>>> State Id 62, N = R
->>> Common Label => 
->>>>> "A"
->>>>> "FF7"
->>> All Labels =>
->>>>> "A"
->>>>> "FF7"
+>>> Number of Faulty States  = 2
+>>> Faulty State Type		 = Neutral + Correct + Incorrect
+>>> Faulty States			 = 15, 24, 
+>>> Common Label			 = "A" (RED), "DUM6" (GREEN), 
+>>> Involved Labels			 = "A" (RED), "DUM6" (GREEN), "DUM8" (BLACK), "DUM9" (BLACK), 
 
 > Cluster Id = 3
 >>> Number of Faulty States  = 1
->>> Faulty State Type = GR
->>> Faulty States =>
->>>>> State Id 82, N = GR
->>> Common Label => 
->>>>> "FF7"
->>>>> "A"
->>> All Labels =>
->>>>> "FF7"
->>>>> "A"
+>>> Faulty State Type		 = Correct + Incorrect
+>>> Faulty States			 = 36, 
+>>> Common Label			 = "A" (RED), "DUM6" (GREEN), 
+>>> Involved Labels			 = "A" (RED), "DUM6" (GREEN), 
 
 > Cluster Id = 4
->>> Number of Faulty States  = 2
->>> Faulty State Type = GRB
->>> Faulty States =>
->>>>> State Id 15, N = GRB
->>>>> State Id 24, N = GRB
->>> Common Label => 
->>>>> "A"
->>>>> "DUM6"
->>> All Labels =>
->>>>> "DUM8"
->>>>> "A"
->>>>> "DUM6"
->>>>> "DUM9"
+>>> Number of Faulty States  = 3
+>>> Faulty State Type		 = Neutral + Incorrect
+>>> Faulty States			 = 6, 27, 62, 
+>>> Common Label			 = "A" (RED), "FF7" (BLACK), 
+>>> Involved Labels			 = "A" (RED), "FF7" (BLACK), 
 
 > Cluster Id = 5
 >>> Number of Faulty States  = 1
->>> Faulty State Type = GR
->>> Faulty States =>
->>>>> State Id 36, N = GR
->>> Common Label => 
->>>>> "DUM6"
->>>>> "A"
->>> All Labels =>
->>>>> "DUM6"
->>>>> "A"
+>>> Faulty State Type		 = Correct + Incorrect
+>>> Faulty States			 = 82, 
+>>> Common Label			 = "A" (RED), "FF7" (GREEN), 
+>>> Involved Labels			 = "A" (RED), "FF7" (GREEN), 
 

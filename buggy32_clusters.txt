@@ -1,252 +1,37 @@
-Number of Clusters = 13
+Number of Clusters = 5
 
 > Cluster Id = 1
 >>> Number of Faulty States  = 9
->>> Faulty State Type = R
->>> Faulty States =>
->>>>> State Id 3, N = R
->>>>> State Id 7, N = R
->>>>> State Id 25, N = R
->>>>> State Id 70, N = R
->>>>> State Id 145, N = R
->>>>> State Id 26, N = R
->>>>> State Id 72, N = R
->>>>> State Id 8, N = R
->>>>> State Id 28, N = R
->>> Common Label => 
->>>>> "DUM11"
->>>>> "DUM8"
->>>>> "A"
->>> All Labels =>
->>>>> "DUM11"
->>>>> "DUM5"
->>>>> "DUM7"
->>>>> "DUM8"
->>>>> "A"
->>>>> "DUM6"
->>>>> "DUM13"
+>>> Faulty State Type		 = Neutral + Incorrect
+>>> Faulty States			 = 3, 7, 8, 25, 26, 28, 70, 72, 145, 
+>>> Common Label			 = "A" (RED), "DUM11" (BLACK), "DUM8" (BLACK), 
+>>> Involved Labels			 = "A" (RED), "DUM11" (BLACK), "DUM13" (BLACK), "DUM5" (BLACK), "DUM6" (BLACK), "DUM7" (BLACK), "DUM8" (BLACK), 
 
 > Cluster Id = 2
 >>> Number of Faulty States  = 17
->>> Faulty State Type = GRB
->>> Faulty States =>
->>>>> State Id 6, N = GRB
->>>>> State Id 21, N = GRB
->>>>> State Id 61, N = GRB
->>>>> State Id 131, N = GRB
->>>>> State Id 219, N = GRB
->>>>> State Id 132, N = GRB
->>>>> State Id 221, N = GRB
->>>>> State Id 62, N = GRB
->>>>> State Id 134, N = GRB
->>>>> State Id 22, N = GRB
->>>>> State Id 64, N = GRB
->>>>> State Id 137, N = GRB
->>>>> State Id 227, N = GRB
->>>>> State Id 65, N = GRB
->>>>> State Id 139, N = GRB
->>>>> State Id 23, N = GRB
->>>>> State Id 67, N = GRB
->>> Common Label => 
->>>>> "A"
->>>>> "DUM8"
->>> All Labels =>
->>>>> "DUM12"
->>>>> "DUM5"
->>>>> "DUM7"
->>>>> "A"
->>>>> "DUM8"
->>>>> "DUM6"
->>>>> "DUM13"
+>>> Faulty State Type		 = Neutral + Correct + Incorrect
+>>> Faulty States			 = 6, 21, 22, 23, 61, 62, 64, 65, 67, 131, 132, 134, 137, 139, 219, 221, 227, 
+>>> Common Label			 = "A" (RED), "DUM8" (GREEN), 
+>>> Involved Labels			 = "A" (RED), "DUM12" (BLACK), "DUM13" (BLACK), "DUM5" (BLACK), "DUM6" (BLACK), "DUM7" (BLACK), "DUM8" (GREEN), 
 
 > Cluster Id = 3
 >>> Number of Faulty States  = 1
->>> Faulty State Type = GR
->>> Faulty States =>
->>>>> State Id 301, N = GR
->>> Common Label => 
->>>>> "DUM8"
->>>>> "A"
->>> All Labels =>
->>>>> "DUM8"
->>>>> "A"
+>>> Faulty State Type		 = Correct + Incorrect
+>>> Faulty States			 = 301, 
+>>> Common Label			 = "A" (RED), "DUM8" (GREEN), 
+>>> Involved Labels			 = "A" (RED), "DUM8" (GREEN), 
 
 > Cluster Id = 4
->>> Number of Faulty States  = 2
->>> Faulty State Type = GRB
->>> Faulty States =>
->>>>> State Id 235, N = GRB
->>>>> State Id 315, N = GRB
->>> Common Label => 
->>>>> "A"
->>>>> "DUM11"
->>> All Labels =>
->>>>> "DUM9"
->>>>> "A"
->>>>> "DUM11"
->>>>> "DUM10"
+>>> Number of Faulty States  = 1
+>>> Faulty State Type		 = Correct + Incorrect
+>>> Faulty States			 = 367, 
+>>> Common Label			 = "A" (RED), "DUM11" (GREEN), 
+>>> Involved Labels			 = "A" (RED), "DUM11" (GREEN), 
 
 > Cluster Id = 5
->>> Number of Faulty States  = 1
->>> Faulty State Type = GR
->>> Faulty States =>
->>>>> State Id 367, N = GR
->>> Common Label => 
->>>>> "DUM11"
->>>>> "A"
->>> All Labels =>
->>>>> "DUM11"
->>>>> "A"
-
-> Cluster Id = 6
->>> Number of Faulty States  = 3
->>> Faulty State Type = GRB
->>> Faulty States =>
->>>>> State Id 146, N = GRB
->>>>> State Id 236, N = GRB
->>>>> State Id 316, N = GRB
->>> Common Label => 
->>>>> "DUM13"
->>>>> "DUM11"
->>>>> "A"
->>> All Labels =>
->>>>> "DUM13"
->>>>> "DUM9"
->>>>> "DUM11"
->>>>> "A"
->>>>> "DUM10"
-
-> Cluster Id = 7
->>> Number of Faulty States  = 3
->>> Faulty State Type = GRB
->>> Faulty States =>
->>>>> State Id 71, N = GRB
->>>>> State Id 147, N = GRB
->>>>> State Id 237, N = GRB
->>> Common Label => 
->>>>> "DUM7"
->>>>> "DUM11"
->>>>> "A"
->>> All Labels =>
->>>>> "DUM7"
->>>>> "DUM9"
->>>>> "DUM11"
->>>>> "A"
->>>>> "DUM10"
-
-> Cluster Id = 8
->>> Number of Faulty States  = 3
->>> Faulty State Type = GRB
->>> Faulty States =>
->>>>> State Id 148, N = GRB
->>>>> State Id 238, N = GRB
->>>>> State Id 317, N = GRB
->>> Common Label => 
->>>>> "DUM6"
->>>>> "DUM11"
->>>>> "A"
->>> All Labels =>
->>>>> "DUM6"
->>>>> "DUM9"
->>>>> "DUM11"
->>>>> "A"
->>>>> "DUM10"
-
-> Cluster Id = 9
->>> Number of Faulty States  = 3
->>> Faulty State Type = GRB
->>> Faulty States =>
->>>>> State Id 73, N = GRB
->>>>> State Id 149, N = GRB
->>>>> State Id 239, N = GRB
->>> Common Label => 
->>>>> "DUM6"
->>>>> "DUM13"
->>>>> "A"
->>>>> "DUM11"
->>> All Labels =>
->>>>> "DUM6"
->>>>> "DUM13"
->>>>> "DUM9"
->>>>> "A"
->>>>> "DUM11"
->>>>> "DUM10"
-
-> Cluster Id = 10
->>> Number of Faulty States  = 3
->>> Faulty State Type = GRB
->>> Faulty States =>
->>>>> State Id 27, N = GRB
->>>>> State Id 74, N = GRB
->>>>> State Id 150, N = GRB
->>> Common Label => 
->>>>> "DUM6"
->>>>> "DUM7"
->>>>> "A"
->>>>> "DUM11"
->>> All Labels =>
->>>>> "DUM6"
->>>>> "DUM7"
->>>>> "DUM9"
->>>>> "A"
->>>>> "DUM11"
->>>>> "DUM10"
-
-> Cluster Id = 11
->>> Number of Faulty States  = 3
->>> Faulty State Type = GRB
->>> Faulty States =>
->>>>> State Id 75, N = GRB
->>>>> State Id 151, N = GRB
->>>>> State Id 240, N = GRB
->>> Common Label => 
->>>>> "DUM5"
->>>>> "DUM11"
->>>>> "A"
->>> All Labels =>
->>>>> "DUM5"
->>>>> "DUM9"
->>>>> "DUM11"
->>>>> "A"
->>>>> "DUM10"
-
-> Cluster Id = 12
->>> Number of Faulty States  = 3
->>> Faulty State Type = GRB
->>> Faulty States =>
->>>>> State Id 29, N = GRB
->>>>> State Id 76, N = GRB
->>>>> State Id 152, N = GRB
->>> Common Label => 
->>>>> "DUM5"
->>>>> "DUM13"
->>>>> "A"
->>>>> "DUM11"
->>> All Labels =>
->>>>> "DUM5"
->>>>> "DUM13"
->>>>> "DUM9"
->>>>> "A"
->>>>> "DUM11"
->>>>> "DUM10"
-
-> Cluster Id = 13
->>> Number of Faulty States  = 3
->>> Faulty State Type = GRB
->>> Faulty States =>
->>>>> State Id 9, N = GRB
->>>>> State Id 30, N = GRB
->>>>> State Id 77, N = GRB
->>> Common Label => 
->>>>> "DUM5"
->>>>> "DUM7"
->>>>> "A"
->>>>> "DUM11"
->>> All Labels =>
->>>>> "DUM5"
->>>>> "DUM7"
->>>>> "DUM9"
->>>>> "A"
->>>>> "DUM11"
->>>>> "DUM10"
+>>> Number of Faulty States  = 26
+>>> Faulty State Type		 = Neutral + Correct + Incorrect
+>>> Faulty States			 = 9, 27, 29, 30, 71, 73, 74, 75, 76, 77, 146, 147, 148, 149, 150, 151, 152, 235, 236, 237, 238, 239, 240, 315, 316, 317, 
+>>> Common Label			 = "A" (RED), "DUM11" (GREEN), 
+>>> Involved Labels			 = "A" (RED), "DUM10" (BLACK), "DUM11" (GREEN), "DUM13" (BLACK), "DUM5" (BLACK), "DUM6" (BLACK), "DUM7" (BLACK), "DUM9" (BLACK), 
 

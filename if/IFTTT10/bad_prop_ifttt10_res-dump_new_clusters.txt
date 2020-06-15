@@ -1,0 +1,54 @@
+Number of Clusters = 2
+
+> Cluster Id = 1
+>>> Number of Faulty States  = 6
+>>> Faulty State Type = G
+>>> Faulty States =>
+>>>>> State Id 0, N = G
+>>>>> State Id 6, N = G
+>>>>> State Id 36, N = G
+>>>>> State Id 9, N = G
+>>>>> State Id 46, N = G
+>>>>> State Id 10, N = G
+>>> Common Label => 
+>>>>> "LATE"
+>>>>> "COLD"
+>>>>> "MOVEIN"
+>>>>> "MOVEOUT"
+>>>>> "WARM"
+>>> All Labels =>
+>>>>> "LATE"
+>>>>> "COLD"
+>>>>> "MOVEIN"
+>>>>> "MOVEOUT"
+>>>>> "WARM"
+>>>>> "CLOSEWINDOW_READ"
+>>>>> "LIGHTOFF_READ"
+>>>>> "OPENWINDOW_READ"
+
+> Cluster Id = 2
+>>> Number of Faulty States  = 6
+>>> Faulty State Type = R
+>>> Faulty States =>
+>>>>> State Id 35, N = R
+>>>>> State Id 8, N = R
+>>>>> State Id 20, N = R
+>>>>> State Id 52, N = R
+>>>>> State Id 44, N = R
+>>>>> State Id 66, N = R
+>>> Common Label => 
+>>>>> "LATE"
+>>>>> "COLD"
+>>>>> "MOVEIN"
+>>>>> "MOVEOUT"
+>>>>> "WARM"
+>>> All Labels =>
+>>>>> "CLOSEWINDOW_READ"
+>>>>> "LIGHTON_READ"
+>>>>> "LATE"
+>>>>> "COLD"
+>>>>> "MOVEIN"
+>>>>> "MOVEOUT"
+>>>>> "WARM"
+>>>>> "OPENWINDOW_READ"
+

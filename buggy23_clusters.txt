@@ -2,11 +2,8 @@ Number of Clusters = 1
 
 > Cluster Id = 1
 >>> Number of Faulty States  = 1
->>> Faulty State Type = R
->>> Faulty States =>
->>>>> State Id 0, N = R
->>> Common Label => 
->>>>> "DUM1"
->>> All Labels =>
->>>>> "DUM1"
+>>> Faulty State Type		 = Neutral + Incorrect
+>>> Faulty States			 = 0, 
+>>> Common Label			 = "DUM1" (RED), 
+>>> Involved Labels			 = "DUM1" (RED), 
 
